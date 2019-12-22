@@ -41,25 +41,21 @@
             }
 
             .content {
-            height: 100%;
+            height: 100vh;
             width: 100%
             }
 
             .left_content{
-                height: 100%;
+                height: 100vh;
                 width: 25%;
                 top: 0px;
-            }
-
-            .title {
-                font-size: 84px;
             }
 
             .links{
                 
             }
 
-            .links > a {
+            a {
                 display: inline-block; 
                 transform: rotate(270deg);
                 color: #636b6f;
@@ -73,6 +69,7 @@
 
             .center_content {
                 margin-bottom: 30px;
+                font-size: 84px;
             }
         </style>
     </head>
