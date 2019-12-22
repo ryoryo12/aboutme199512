@@ -72,7 +72,7 @@
     </head>
     <body>
         <div class="content">
-            <div class ="left_content">
+            <div class ="top_content">
                 <div class="links">
                     <a href="https://laravel.com/docs">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
@@ -87,12 +87,12 @@
                 Coming
             </div>
         
-        <div class ="right_content">
-            I'm Ryota
-        <ol></ol>
-            I will work as a system engineer
-        <ol></ol>
-            based in Tokyo
+            <div class ="under_content">
+                I'm Ryota
+            <ol></ol>
+                I will work as a system engineer
+            <ol></ol>
+                based in Tokyo
 
         </div>
             
