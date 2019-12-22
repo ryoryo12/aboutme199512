@@ -89,7 +89,7 @@
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Works</a>
-                    <a href="https://laracasts.com">GitHub</a>
+                    <a href="https://github.com/ryoryo12">GitHub</a>
                     <a href="https://laravel-news.com">Contact</a>
                 </div>
             </div>
