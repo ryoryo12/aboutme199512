@@ -41,16 +41,21 @@
             }
 
             .content {
-                text-align: center;
             }
 
             .title {
                 font-size: 84px;
             }
 
+            .links{
+                
+            }
+
             .links > a {
+                display: inline-block; 
+                transform: rotate(270deg);
                 color: #636b6f;
-                padding: 0 25px;
+                right: 0;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
