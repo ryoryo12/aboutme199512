@@ -53,7 +53,8 @@
             }
 
             a {
-                display: inline-block; 
+                display: block;
+                margin: 100px; 
                 transform: rotate(270deg);
                 color: #636b6f;
                 right: 0;
@@ -83,6 +84,7 @@
             .right_text{
                 display: inline-block;
                 transform: rotate(270deg);
+                margin-top: 600px;
             }
 
         </style>
