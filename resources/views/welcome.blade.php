@@ -19,6 +19,20 @@
                 margin: 0;
             }
 
+            .left_border{
+                border-bottom: 1px solid #FF8C00;
+                transform: rotate(90deg);
+            }
+            .center_border{
+                border-bottom: 1px solid #FF8C00;
+                transform: rotate(90deg);
+            }
+
+            .right_border{
+                border-bottom: 1px solid #FF8C00;
+                transform: rotate(90deg);
+            }
+
             .full-height {
                 height: 100vh;
             }
@@ -106,6 +120,7 @@
     <body>
         <div class="content">
             <div class ="left_content">
+                <p class= "left_border"></p>
                 <div class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
@@ -114,6 +129,7 @@
             </div>
 
             <div class ="center_content">
+                <p class= "center_border"></p>
                 <div class="title">
                     Thanks
                 <br>
@@ -127,6 +143,7 @@
             </div>
         
             <div class ="right_content">
+                <p class= "right_border"></p>
                 <div class="right_text">
                     I'm Ryota
                 <br>
