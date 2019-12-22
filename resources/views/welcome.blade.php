@@ -115,7 +115,6 @@
             </div>
 
             <div class ="center_content">
-                <p class= "border"></p>
                 <div class="title">
                     Thanks
                 <br>
