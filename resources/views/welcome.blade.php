@@ -41,7 +41,8 @@
             }
 
             .content {
-            
+            height: 100%;
+            width: 100%
             }
 
             .title {
@@ -71,18 +72,19 @@
     </head>
     <body>
         <div class="content">
+            <div class ="left_content">
+                <div class="links">
+                    <a href="https://laravel.com/docs">Works</a>
+                    <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://laravel-news.com">Contact</a>
+                </div>
+            </div>
             <div class="title m-b-md">
                 Thanks
             <ol></ol>
                 For
             <ol></ol>
                 Coming
-            </div>
-            <div class ="left_content">
-            <div class="links">
-                <a href="https://laravel.com/docs">Works</a>
-                <a href="https://github.com/ryoryo12">GitHub</a>
-                <a href="https://laravel-news.com">Contact</a>
             </div>
         
         <div class ="right_content">
