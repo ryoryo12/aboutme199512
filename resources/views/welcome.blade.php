@@ -107,7 +107,7 @@
         <div class="content">
             <div class ="left_content">
                 <div class="links">
-                    <a href="https://laravel.com/docs">Works</a>
+                    <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
                     <a href="https://laravel-news.com">Contact</a>
                 </div>
