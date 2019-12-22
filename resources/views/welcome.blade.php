@@ -58,7 +58,7 @@
                 transform: rotate(270deg);
                 color: #636b6f;
                 right: 0;
-                font-size: 13px;
+                font-size: 22px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -85,6 +85,8 @@
                 display: inline-block;
                 transform: rotate(270deg);
                 margin-top: 600px;
+                font-size: 17px;
+                width: 300px;
             }
 
         </style>
@@ -100,20 +102,20 @@
             </div>
             <div class ="center_content">
                 <div class="title">
-                Thanks
-            <ol></ol>
-                For
-            <ol></ol>
-                Coming
+                    Thanks
+                <br>
+                    For
+                <br>
+                    Coming
                 </div>
             </div>
         
             <div class ="right_content">
                 <div class="right_text">
                     I'm Ryota
-                <ol></ol>
+                <br>
                     I will work as a system engineer
-                <ol></ol>
+                <br>
                     based in Tokyo
                 </div>
             </div>
