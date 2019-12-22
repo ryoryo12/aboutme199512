@@ -52,11 +52,6 @@
                 top: 0px;
             }
 
-
-            .links{
-                
-            }
-
             a {
                 display: inline-block; 
                 transform: rotate(270deg);
@@ -78,6 +73,7 @@
 
             .right_content{
                 height: 100vh;
+                width: 25%;
             }
 
             .right_text{
@@ -105,15 +101,14 @@
             </div>
         
             <div class ="right_content">
-                <div class="right_text"></div>
-
+                <div class="right_text">
                     I'm Ryota
                 <ol></ol>
                     I will work as a system engineer
                 <ol></ol>
                     based in Tokyo
-
-        </div>
+                </div>
+            </div>
             
         </div>
     </body>
