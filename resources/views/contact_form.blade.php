@@ -18,7 +18,7 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
  
 <p> 全ての項目が必須です。</p>
  
-<form action="mail_check.php" method="post">
+<form action="contact_check.php" method="post">
  
 <p>名前：<input type="text" name="name"></p>
 <p>メールアドレス：<input type="text" name="mail" size="50"></p>
