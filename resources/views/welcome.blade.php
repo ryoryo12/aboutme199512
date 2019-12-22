@@ -45,6 +45,12 @@
             width: 100%
             }
 
+            .left_content{
+                height: 100%;
+                width: 25%;
+                top: 0px;
+            }
+
             .title {
                 font-size: 84px;
             }
@@ -65,21 +71,21 @@
                 text-transform: uppercase;
             }
 
-            .m-b-md {
+            .center_content {
                 margin-bottom: 30px;
             }
         </style>
     </head>
     <body>
         <div class="content">
-            <div class ="top_content">
+            <div class ="left_content">
                 <div class="links">
                     <a href="https://laravel.com/docs">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
                     <a href="https://laravel-news.com">Contact</a>
                 </div>
             </div>
-            <div class="title m-b-md">
+            <div class ="center_content">
                 Thanks
             <ol></ol>
                 For
@@ -87,7 +93,7 @@
                 Coming
             </div>
         
-            <div class ="under_content">
+            <div class ="right_content">
                 I'm Ryota
             <ol></ol>
                 I will work as a system engineer
