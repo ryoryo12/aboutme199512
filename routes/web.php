@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/','WorkController@index');
+
+Route::get('/work','WorkController@index');
