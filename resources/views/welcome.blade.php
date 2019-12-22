@@ -19,20 +19,6 @@
                 margin: 0;
             }
 
-            .left_border{
-                border-bottom: 1px solid #FF8C00;
-                transform: rotate(90deg);
-            }
-            .center_border{
-                border-bottom: 1px solid #FF8C00;
-                transform: rotate(90deg);
-            }
-
-            .right_border{
-                border-bottom: 1px solid #FF8C00;
-                transform: rotate(90deg);
-            }
-
             .full-height {
                 height: 100vh;
             }
@@ -60,7 +46,7 @@
             }
 
             .left_content{
-                width: 25%;
+                width: 15%;
                 top: 0px;
             }
 
@@ -84,10 +70,11 @@
             }
 
             .center_content {
-                margin-bottom: 30px;
+                border-left: solid 1px #FF8C00;
+                border-right: solid 1px #FF8C00;
                 font-size: 100px;
                 height: 100vh;
-                width: 50%;
+                width: 70%;
             }
 
             .title{
@@ -104,7 +91,7 @@
 
             .right_content{
                 height: 100vh;
-                width: 15vh;
+                width: 15%;
                 margin: 0 auto;
             }
 
@@ -120,7 +107,6 @@
     <body>
         <div class="content">
             <div class ="left_content">
-                <p class= "left_border"></p>
                 <div class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
@@ -129,7 +115,7 @@
             </div>
 
             <div class ="center_content">
-                <p class= "center_border"></p>
+                <p class= "border"></p>
                 <div class="title">
                     Thanks
                 <br>
@@ -143,7 +129,6 @@
             </div>
         
             <div class ="right_content">
-                <p class= "right_border"></p>
                 <div class="right_text">
                     I'm Ryota
                 <br>
