@@ -42,7 +42,8 @@
 
             .content {
             height: 100vh;
-            width: 100%
+            width: 100%;
+            display: flex;
             }
 
             .left_content{
@@ -50,6 +51,7 @@
                 width: 25%;
                 top: 0px;
             }
+
 
             .links{
                 
@@ -70,7 +72,19 @@
             .center_content {
                 margin-bottom: 30px;
                 font-size: 84px;
+                height: 100vh;
+                width: 50%;
             }
+
+            .right_content{
+                height: 100vh;
+            }
+
+            .right_text{
+                display: inline-block;
+                transform: rotate(270deg);
+            }
+
         </style>
     </head>
     <body>
@@ -91,11 +105,13 @@
             </div>
         
             <div class ="right_content">
-                I'm Ryota
-            <ol></ol>
-                I will work as a system engineer
-            <ol></ol>
-                based in Tokyo
+                <div class="right_text"></div>
+
+                    I'm Ryota
+                <ol></ol>
+                    I will work as a system engineer
+                <ol></ol>
+                    based in Tokyo
 
         </div>
             
