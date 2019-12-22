@@ -86,6 +86,8 @@ if(count($errors) === 0){
 <?php if (count($errors) === 0): ?>
  
 <form action="/contact_send" method="post">
+@csrf
+
  
 <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
 <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
