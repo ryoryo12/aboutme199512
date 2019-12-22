@@ -86,7 +86,7 @@
                 color: #FF8C00;
                 top: 292px;
                 font-size: 120px;
-                right: 753px;
+                right: 896px;
             }
 
             .right_content{
