@@ -71,6 +71,10 @@
                 width: 50%;
             }
 
+            .title{
+                margin: 100px;
+            }
+
             .right_content{
                 height: 100vh;
                 width: 25%;
@@ -93,11 +97,13 @@
                 </div>
             </div>
             <div class ="center_content">
+                <div class="title">
                 Thanks
             <ol></ol>
                 For
             <ol></ol>
                 Coming
+                </div>
             </div>
         
             <div class ="right_content">
