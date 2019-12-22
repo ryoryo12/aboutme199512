@@ -110,7 +110,7 @@
                 <div class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
-                    <a href="https://laravel-news.com">Contact</a>
+                    <a href="/contact_form">Contact</a>
                 </div>
             </div>
 
