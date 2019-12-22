@@ -11,17 +11,15 @@ if ($_POST['token'] != sha1(session_id()) ){
 	echo "不正アクセスの可能性あり";
 	exit();
 }
- 
 if(empty($_POST)) {
-	header("Location: mail_form.php");
+	header("Location: contact_form.php");
 	exit();
 }
  
 //メールの宛先
-$mailTo = 'mymail@sample.com';
- 
+$mailTo = 'o61.hirata.ryota@gmail.com';
 //Return-Pathに指定するメールアドレス
-$returnMail = 'mymail@sample.com';
+$returnMail = 'o61.hirata.ryota@gmail.com';
  
 //セッション変数等を各変数に設定
 $name = $_SESSION['name'];
