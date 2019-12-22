@@ -17,4 +17,6 @@ Route::get('/', function () {
 
 Route::get('/work','WorkController@index');
 
-Route::get('/contact_form','ContactController@index');
+Route::get('/contact_form','ContactFormController@index');
+Route::get('/contact_check','ContactCheckController@index');
+Route::get('/contact_send','ContactSendController@index');
