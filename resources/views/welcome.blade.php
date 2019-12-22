@@ -8,12 +8,11 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: #333333;
+                color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -47,16 +46,21 @@
             }
 
             .left_content{
-                height: 100vh;
                 width: 25%;
                 top: 0px;
             }
 
+            .links{
+                position: absolute;
+                width: 25%;
+                height: 100vh;
+            }
+
             a {
                 display: block;
-                margin: 100px; 
+                margin: 150px; 
                 transform: rotate(270deg);
-                color: #636b6f;
+                color: #777777;
                 right: 0;
                 font-size: 22px;
                 font-weight: 600;
@@ -67,7 +71,7 @@
 
             .center_content {
                 margin-bottom: 30px;
-                font-size: 84px;
+                font-size: 100px;
                 height: 100vh;
                 width: 50%;
             }
@@ -76,9 +80,18 @@
                 margin: 100px;
             }
 
+            .accent{
+                position: absolute;
+                color: #FF8C00;
+                top: 292px;
+                font-size: 120px;
+                right: 753px;
+            }
+
             .right_content{
                 height: 100vh;
-                width: 25%;
+                width: 15vh;
+                margin: 0 auto;
             }
 
             .right_text{
@@ -88,7 +101,6 @@
                 font-size: 17px;
                 width: 300px;
             }
-
         </style>
     </head>
     <body>
@@ -100,6 +112,7 @@
                     <a href="https://laravel-news.com">Contact</a>
                 </div>
             </div>
+
             <div class ="center_content">
                 <div class="title">
                     Thanks
@@ -107,6 +120,9 @@
                     For
                 <br>
                     Coming
+                </div>
+                <div class="accent">
+                .
                 </div>
             </div>
         
