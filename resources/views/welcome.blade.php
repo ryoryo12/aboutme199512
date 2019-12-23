@@ -74,20 +74,43 @@
             }
 
             .title{
+                margin: 12% 20px;
+                color: #AAAAAA;
+                position: absolute;
+            }
+
+            .title_shadow{
                 margin: 20% 30px;
+                color: #666666;
             }
 
             .accent_1{
                 position: absolute;
-                color: #00008B;
+                color: #FF8C00;
+                top: 363px;
+                font-size: 120px;
+                left: 439px;
+            }
+
+            .accent_2{
+                position: absolute;
+                color: #FF8C00;
+                top: 70px;
+                font-size: 200px;
+                left: 550px;
+            }
+
+            .accent_1_shadow{
+                position: absolute;
+                color: #FFA500;
                 top: 393px;
                 font-size: 120px;
                 left: 449px;
             }
 
-            .accent_2{
+            .accent_2_shadow{
                 position: absolute;
-                color: #00008B;
+                color: #FFA500;
                 top: 100px;
                 font-size: 200px;
                 left: 560px;
@@ -142,10 +165,23 @@
                 <br>
                     Coming
                 </div>
+                <div class="title_shadow">
+                    Thanks
+                <br>
+                    For
+                <br>
+                    Coming
+                </div>
                 <div class="accent_1">
                 .
                 </div>
                 <div class="accent_2">
+                .
+                </div>
+                <div class="accent_1_shadow">
+                .
+                </div>
+                <div class="accent_2_shadow">
                 .
                 </div>
                 <div class="boxes_1"></div>
