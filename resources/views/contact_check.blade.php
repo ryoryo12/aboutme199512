@@ -91,25 +91,40 @@ if(count($errors) === 0){
               height: 100vh;
               margin: 0;
           }
+
+          .content{
+            height: 100vh;
+            width: 100vh;
+            margin: 0 auto;
+          }
+
+          form{
+            text-align: center;
+          }
+
         </style>
         </head>
     <body>
 
         <?php if (count($errors) === 0): ?>
 
-        <form action="/contact_send" method="post">
-        @csrf
+        <div class="content">
+
+            <form action="/contact_send" method="post">
+            @csrf
 
 
-            <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
-            <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
-            <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
+                <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
+                <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
+                <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
 
-            <input type="button" value="戻る" onClick="history.back()">
-            <input type="hidden" name="token" value="<?=$_POST['token']?>">
-            <input type="submit" value="送信する">
+                <input type="button" value="戻る" onClick="history.back()">
+                <input type="hidden" name="token" value="<?=$_POST['token']?>">
+                <input type="submit" value="送信する">
 
-        </form>
+            </form>
+
+        </div>
 
         <?php elseif(count($errors) > 0): ?>
 
