@@ -80,7 +80,7 @@
             }
 
             .title_shadow{
-                margin: 20% 30px;
+                margin: 20% 35px;
                 color: #666666;
             }
 
@@ -105,7 +105,7 @@
                 color: #FFA500;
                 top: 393px;
                 font-size: 120px;
-                left: 449px;
+                left: 454px;
             }
 
             .accent_2_shadow{
@@ -113,7 +113,7 @@
                 color: #FFA500;
                 top: 100px;
                 font-size: 200px;
-                left: 560px;
+                left: 565px;
             }
 
             .boxes_1{
