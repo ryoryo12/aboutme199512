@@ -6,6 +6,17 @@
 
         <title>About_Me</title>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+            $(function() {
+                setTimeout(function(){
+                    $('.start p').fadeIn(1600);
+                },500); //0.5秒後にロゴをフェードイン!
+                setTimeout(function(){
+                    $('.start').fadeOut(500);
+                },2500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+            });
+        </script>
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
@@ -168,9 +179,31 @@
                 width: 300px;
             }
 
+            .start {
+                background: #FFF;
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 9000;
+            }
+            .start p {
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                display: none;
+                z-index: 9999;
+                width: 280px;
+            }
+
         </style>
     </head>
     <body>
+        <div class="start">
+            <p>aaa</p>
+        </div>
         <div class="content">
             <div class ="left_content">
                 <ul class="links">
