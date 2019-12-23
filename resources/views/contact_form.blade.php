@@ -21,7 +21,7 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
         <style>
 
           html, body {
-              background-color: #FF8C00;
+              background-color: #333333;
               color: #777777;
               font-family: 'Nunito', sans-serif;
               font-weight: 200;
@@ -32,25 +32,34 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
           .content{
             height: 100vh;
             width: 100vh;
+            margin: 0 auto;
           }
 
+          h1{
+            text-align: center;
+          }
 
+          form{
+            text-align: center;
+          }
+
+          
         </style>
       </head>
       <body>
         <div class="content">
-            <h1> 全ての項目が必須です。</h1>
+            <h1> お問い合わせフォーム</h1>
             
             <form action="/contact_check" method="post">
 
             @csrf
             
-            <p>名前：<input type="text" name="name"></p>
-            <p>メールアドレス：<input type="text" name="mail" size="50"></p>
-            <p><textarea name="comment" rows="4" cols="40">コメントをどうぞ</textarea></p>
-            
-            <input type="hidden" name="token" value="<?=sha1(session_id())?>">
-            <input type="submit" value="確認する">
+                <p>名前：<input type="text" name="name"></p>
+                <p>メールアドレス：<input type="text" name="mail" size="50"></p>
+                <p><textarea name="comment" rows="4" cols="40">コメントをどうぞ</textarea></p>
+                
+                <input type="hidden" name="token" value="<?=sha1(session_id())?>">
+                <input type="submit" value="確認する">
             
             </form>
           </div>
