@@ -19,24 +19,41 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <style>
+
+          html, body {
+              background-color: #FF8C00;
+              color: #777777;
+              font-family: 'Nunito', sans-serif;
+              font-weight: 200;
+              height: 100vh;
+              margin: 0;
+          }
+
+          .content{
+            height: 100vh;
+            width: 100vh;
+          }
+
+
         </style>
       </head>
       <body>
+        <div class="content">
+            <h1> 全ての項目が必須です。</h1>
+            
+            <form action="/contact_check" method="post">
 
-          <p> 全ての項目が必須です。</p>
-          
-          <form action="/contact_check" method="post">
-
-          @csrf
-          
-          <p>名前：<input type="text" name="name"></p>
-          <p>メールアドレス：<input type="text" name="mail" size="50"></p>
-          <p><textarea name="comment" rows="4" cols="40">コメントをどうぞ</textarea></p>
-          
-          <input type="hidden" name="token" value="<?=sha1(session_id())?>">
-          <input type="submit" value="確認する">
-          
-          </form>
+            @csrf
+            
+            <p>名前：<input type="text" name="name"></p>
+            <p>メールアドレス：<input type="text" name="mail" size="50"></p>
+            <p><textarea name="comment" rows="4" cols="40">コメントをどうぞ</textarea></p>
+            
+            <input type="hidden" name="token" value="<?=sha1(session_id())?>">
+            <input type="submit" value="確認する">
+            
+            </form>
+          </div>
 
     </body>
 </html>
