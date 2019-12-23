@@ -73,11 +73,14 @@
                 width: 70%;
             }
             .center_content_shadow {
+                top: 0;
+                left: 200px;
                 border-left: solid 1px #FFA500;
                 border-right: solid 1px #FFA500;
                 font-size: 100px;
                 height: 100vh;
-                width: 70%;
+                width: 72%;
+                position: absolute;
             }
 
             .title{
@@ -142,14 +145,14 @@
                 position: absolute;
                 border-bottom: solid 1px #FFA500;
                 top: 8vh;
-                right: 0px;
+                right: 1%;
             }
             .boxes_2_shadow{
                 width: 85%;
                 position: absolute;
                 border-bottom: solid 1px #FFA500;
                 bottom: 8vh;
-                left: 0
+                left: 1%;
             }
 
             .right_content{
@@ -209,6 +212,7 @@
                 <div class="boxes_2"></div>
                 <div class="boxes_1_shadow"></div>
                 <div class="boxes_2_shadow"></div>
+            <div class ="center_content_shadow"></div>
 
             </div>
         
