@@ -72,44 +72,56 @@ if(count($errors) === 0){
 	$_SESSION['mail'] = $mail;
 	$_SESSION['comment'] = $comment;
 }
- 
+
 ?>
- 
+
 <!DOCTYPE html>
 <html>
-<head>
-<title>検索結果</title>
-<meta charset="utf-8">
-</head>
-<body>
- 
-<?php if (count($errors) === 0): ?>
- 
-<form action="/contact_send" method="post">
-@csrf
+    <head>
+        <title>検索結果</title>
+        <meta charset="utf-8">
 
- 
-<p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
-<p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
-<p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
- 
-<input type="button" value="戻る" onClick="history.back()">
-<input type="hidden" name="token" value="<?=$_POST['token']?>">
-<input type="submit" value="送信する">
- 
-</form>
- 
-<?php elseif(count($errors) > 0): ?>
- 
-<?php
-foreach($errors as $value){
-	echo "<p>".$value."</p>";
-}
-?>
- 
-<input type="button" value="戻る" onClick="history.back()">
- 
-<?php endif; ?>
- 
-</body>
+        <style>
+
+          html, body {
+              background-color: #333333;
+              color: #777777;
+              font-family: 'Nunito', sans-serif;
+              font-weight: 200;
+              height: 100vh;
+              margin: 0;
+          }
+        </style>
+        </head>
+    <body>
+
+        <?php if (count($errors) === 0): ?>
+
+        <form action="/contact_send" method="post">
+        @csrf
+
+
+            <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
+            <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
+            <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
+
+            <input type="button" value="戻る" onClick="history.back()">
+            <input type="hidden" name="token" value="<?=$_POST['token']?>">
+            <input type="submit" value="送信する">
+
+        </form>
+
+        <?php elseif(count($errors) > 0): ?>
+
+        <?php
+        foreach($errors as $value){
+          echo "<p>".$value."</p>";
+        }
+        ?>
+
+        <input type="button" value="戻る" onClick="history.back()">
+
+        <?php endif; ?>
+
+    </body>
 </html>
