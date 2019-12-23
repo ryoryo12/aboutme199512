@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <style>
+            
             html, body {
                 background-color: #333333;
                 color: #777777;
@@ -50,11 +51,6 @@
                 top: 0px;
             }
 
-            .links{
-                position: absolute;
-                width: 25%;
-                height: 100vh;
-            }
 
             a {
                 display: block;
@@ -78,58 +74,66 @@
             }
 
             .title{
-                margin: 100px;
+                margin: 20% 30px;
             }
 
-            .accent{
+            .accent_1{
                 position: absolute;
-                color: #FF8C00;
-                top: 292px;
+                color: #00008B;
+                top: 393px;
                 font-size: 120px;
-                right: 896px;
+                left: 449px;
+            }
+
+            .accent_2{
+                position: absolute;
+                color: #00008B;
+                top: 100px;
+                font-size: 200px;
+                left: 560px;
             }
 
             .boxes_1{
-                width: 100%;
+                width: 85%;
                 position: absolute;
                 border-bottom: solid 1px #FF8C00;
-                top: 25vh;
+                top: 10vh;
+                right: 0px;
             }
             .boxes_2{
-                height: 100vh;
-                width: 20%;
+                width: 85%;
                 position: absolute;
-                border-right: solid 1px #FF8C00;
-                top: 0px;
-                left: 50vh;
+                border-bottom: solid 1px #FF8C00;
+                bottom: 10vh;
+                left: 0px
             }
 
             .right_content{
                 height: 100vh;
                 width: 15%;
-                margin: 0 auto;
+                right: 0px;
             }
 
             .right_text{
-                display: inline-block;
                 transform: rotate(270deg);
                 margin-top: 600px;
                 font-size: 20px;
                 width: 300px;
             }
+
         </style>
     </head>
     <body>
         <div class="content">
             <div class ="left_content">
-                <div class="links">
+                <ul class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
                     <a href="https://www.facebook.com/ryota.hirata.986">Facebook</a>
                     <a href="/contact_form">Contact</a>
-                </div>
-            </div>
 
+                </ul>
+            </div>
             <div class ="center_content">
                 <div class="title">
                     Thanks
@@ -138,7 +142,10 @@
                 <br>
                     Coming
                 </div>
-                <div class="accent">
+                <div class="accent_1">
+                .
+                </div>
+                <div class="accent_2">
                 .
                 </div>
                 <div class="boxes_1"></div>
