@@ -8,14 +8,14 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script>
-                // $(function() {
-                //     setTimeout(function(){
-                //         $('.start p').fadeIn(1600);
-                //     },500); //0.5秒後にロゴをフェードイン!
-                //     setTimeout(function(){
-                //         $('.start').fadeOut(500);
-                //     },1500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
-                // });
+                $(function() {
+                    setTimeout(function(){
+                        $('.start p').fadeIn(1600);
+                    },500); //0.5秒後にロゴをフェードイン!
+                    setTimeout(function(){
+                        $('.start').fadeOut(500);
+                    },1500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+                });
             </script>
         </script>
 
