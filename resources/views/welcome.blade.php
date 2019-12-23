@@ -89,6 +89,21 @@
                 right: 896px;
             }
 
+            .boxes_1{
+                width: 100%;
+                position: absolute;
+                border-bottom: solid 1px #FF8C00;
+                top: 25vh;
+            }
+            .boxes_2{
+                height: 100vh;
+                width: 20%;
+                position: absolute;
+                border-right: solid 1px #FF8C00;
+                top: 0px;
+                left: 50vh;
+            }
+
             .right_content{
                 height: 100vh;
                 width: 15%;
@@ -99,7 +114,7 @@
                 display: inline-block;
                 transform: rotate(270deg);
                 margin-top: 600px;
-                font-size: 17px;
+                font-size: 20px;
                 width: 300px;
             }
         </style>
@@ -110,6 +125,7 @@
                 <div class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://www.facebook.com/ryota.hirata.986">Facebook</a>
                     <a href="/contact_form">Contact</a>
                 </div>
             </div>
@@ -125,6 +141,8 @@
                 <div class="accent">
                 .
                 </div>
+                <div class="boxes_1"></div>
+                <div class="boxes_2"></div>
             </div>
         
             <div class ="right_content">
