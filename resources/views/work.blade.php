@@ -25,9 +25,20 @@
             }
 
             .content {
-            height: 100vh;
-            width: 100%;
-            display: flex;
+                height: 100vh;
+                width: 100%;
+                display: flex;
+            }
+
+            .left_content{
+                background-color: #FF8C00;
+                width: 30%;
+                height: 100vh;
+            }
+
+            .right_content{
+                width: 70%;
+                height: 100vh;
             }
 
 
@@ -35,6 +46,12 @@
     </head>
     <body>
         <div class="content">
+            <div class="left_content">
+
+            </div>
+            <div class="right_content">
+
+            </div>
         </div>
     </body>
 </html>
