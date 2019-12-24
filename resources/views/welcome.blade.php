@@ -198,6 +198,7 @@
                 color: #FF8C00;
                 font-size: 200px;
                 bottom: -390px;
+                display: none;
             }
 
         </style>
