@@ -58,18 +58,27 @@
             }
 
             .content_title{
+                text-align: center;
+                margin: 10px;
+                font-size: 100px;
+                width: 100%;
 
             }
 
             .box{
-                width: 900px;
-                margin: 20px 10%;
+                width: 100%;
+                margin: 10px;
             }
 
             .img_box{
                 height: 400px;
                 width : 640px;
                 margin: auto;
+            }
+
+            img{
+                height: 400px;
+                width : 640px;
             }
 
             .title{
