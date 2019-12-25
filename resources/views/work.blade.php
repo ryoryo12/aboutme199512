@@ -47,6 +47,7 @@
                 background-color: #FF8C00;
                 width: 15%;
                 height: 100vh;
+                posision: flex;
             }
 
             .right_content{
@@ -63,6 +64,7 @@
             .img_box{
                 height: 300px;
                 width : 500px;
+                margin: 0 auto;
             }
 
             img{
@@ -84,32 +86,47 @@
             </div>
             <div class="right_content">
                 <div class="box">
+                    <div class="title_box">
+                        <h1 class="title">
+                            サイト名：practice
+                        </h1>
+                    </div>
                     <div class="img_box">
                         <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
                     </div>
-                    <div class="title_box">
-                        <h1 class="title">
-                            practice
-                        </h1>
-                    </div>
                     <div class="text_box">
                         <h2 class="text">
-                            a
+                            内容
                         </h2>
                     </div>
                 </div>
                 <div class="box">
                     <div class="img_box">
-                        <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
+                        <img src="https://i.gyazo.com/cc3d8974487acb293c451b38a4ce3b94.jpg" class="card-img" alt="...">
                     </div>
                     <div class="title_box">
                         <h1 class="title">
-                            practice
+                            サイト名：My recipe
                         </h1>
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            a
+                            内容：
+                        </h2>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="title_box">
+                        <h1 class="title">
+                            サイト名：practice
+                        </h1>
+                    </div>
+                    <div class="img_box">
+                        <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
+                    </div>
+                    <div class="text_box">
+                        <h2 class="text">
+                            内容
                         </h2>
                     </div>
                 </div>
