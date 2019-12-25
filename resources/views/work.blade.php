@@ -52,12 +52,18 @@
 
             .right_content{
                 width: 85%;
+                position: absolute;
                 height: 100vh;
+                right: 0px;
+            }
+
+            .content_title{
+
             }
 
             .box{
                 width: 900px;
-                margin: 20px 20%;
+                margin: 20px 10%;
             }
 
             .img_box{
@@ -83,6 +89,7 @@
                 </ul>
             </div>
             <div class="right_content">
+                <div class="content_title">WORKS</div>
                 <div class="box">
                     <div class="title_box">
                         <h1 class="title">
