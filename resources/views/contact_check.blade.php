@@ -78,7 +78,8 @@ if(count($errors) === 0){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>検索結果</title>
+        <title>お問い合わせ内容の確認</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <meta charset="utf-8">
 
         <style>
