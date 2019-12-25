@@ -61,13 +61,13 @@
             }
 
             .img_box{
-                height: 300px;
-                width : 500px;
+                height: 400px;
+                width : 640px;
+                margin: auto;
             }
 
-            img{
-                width: 300px;
-                height: 300px;
+            .title{
+                text-align: center;
             }
 
         </style>
