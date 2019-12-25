@@ -24,6 +24,19 @@
                 margin: 0;
             }
 
+            a {
+                display: block;
+                margin: 150px; 
+                transform: rotate(270deg);
+                color: #777777;
+                right: 0;
+                font-size: 22px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
             .content {
                 height: 100vh;
                 width: 100%;
@@ -32,12 +45,12 @@
 
             .left_content{
                 background-color: #FF8C00;
-                width: 30%;
+                width: 15%;
                 height: 100vh;
             }
 
             .right_content{
-                width: 70%;
+                width: 85%;
                 height: 100vh;
             }
 
@@ -47,7 +60,13 @@
     <body>
         <div class="content">
             <div class="left_content">
-
+            <div class ="left_content">
+                <ul class="links">
+                    <a href="/work">Works</a>
+                    <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://www.facebook.com/ryota.hirata.986">Facebook</a>
+                    <a href="/contact_form">Contact</a>
+                </ul>
             </div>
             <div class="right_content">
 
