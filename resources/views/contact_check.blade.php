@@ -94,8 +94,36 @@ if(count($errors) === 0){
 
           .content{
             height: 100vh;
-            width: 100vh;
+            width: 100%;
             margin: 0 auto;
+          }
+
+          .left_content{
+                width: 14%;
+                top: 0px;
+                position: fixed;
+                border-right: solid 1px #FFA500;
+            }
+
+            .right_content{
+                width: 85%;
+                position: absolute;
+                right: 0px;
+                border-left: solid 1px #FF8C00;
+                height: 100%;
+            }
+
+          a {
+              display: block;
+              margin: 150px; 
+              transform: rotate(270deg);
+              color: #777777;
+              right: 0;
+              font-size: 22px;
+              font-weight: 600;
+              letter-spacing: .1rem;
+              text-decoration: none;
+              text-transform: uppercase;
           }
 
           form{
@@ -109,20 +137,30 @@ if(count($errors) === 0){
         <?php if (count($errors) === 0): ?>
 
         <div class="content">
+            <div class ="left_content">
+                <ul class="links">
+                    <a href="/work">Works</a>
+                    <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://www.facebook.com/ryota.hirata.986">Facebook</a>
+                    <a href="/contact_form">Contact</a>
+                </ul>
+            </div>
+            <div class="right_content">
 
-            <form action="/contact_send" method="post">
-            @csrf
+              <form action="/contact_send" method="post">
+              @csrf
 
 
-                <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
-                <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
-                <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
+                  <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
+                  <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
+                  <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
 
-                <input type="button" value="戻る" onClick="history.back()">
-                <input type="hidden" name="token" value="<?=$_POST['token']?>">
-                <input type="submit" value="送信する">
+                  <input type="button" value="戻る" onClick="history.back()">
+                  <input type="hidden" name="token" value="<?=$_POST['token']?>">
+                  <input type="submit" value="送信する">
 
-            </form>
+              </form>
+          </div>
 
         </div>
 
