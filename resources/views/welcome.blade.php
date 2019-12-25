@@ -214,7 +214,6 @@
                     <a href="https://github.com/ryoryo12">GitHub</a>
                     <a href="https://www.facebook.com/ryota.hirata.986">Facebook</a>
                     <a href="/contact_form">Contact</a>
-
                 </ul>
             </div>
             <div class ="center_content">
