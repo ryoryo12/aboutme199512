@@ -75,9 +75,10 @@
             }
 
             .box{
+                border: solid 3px #FF8C00;
                 width: 800px;
                 margin: 10px auto;
-                background-color: #FFA500;
+                
             }
 
             .img_box{
