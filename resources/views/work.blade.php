@@ -72,7 +72,23 @@
                 </ul>
             </div>
             <div class="right_content">
-                <div class="">
+                <div class="box_1">
+                    <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
+                    <div class="title_box">
+                        <h1 class="title">
+                            practice
+                        </h1>
+                    </div>
+                    <div class="text_box">
+                        <h2 class="text">
+                            a
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="box_2">
+                    
+                </div>
             </div>
         </div>
     </body>
