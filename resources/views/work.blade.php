@@ -85,6 +85,11 @@
                 text-align: center;
             }
 
+            .text{
+                width: 640px;
+                margin: 0 auto;
+            }
+
         </style>
     </head>
     <body>
