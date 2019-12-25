@@ -57,6 +57,15 @@
                 right: 0px;
             }
 
+            .content_title_box{
+                width:40%;
+                height:150px;
+                background: #FF8C00;
+                margin: 30px auto;
+                text-align:center;
+                transform:skew(5deg,5deg);
+            }
+
             .content_title{
                 text-align: center;
                 margin: 10px;
@@ -66,8 +75,9 @@
             }
 
             .box{
-                width: 100%;
-                margin: 10px;
+                width: 800px;
+                margin: 10px auto;
+                background-color: #111111;
             }
 
             .img_box{
@@ -103,7 +113,9 @@
                 </ul>
             </div>
             <div class="right_content">
-                <div class="content_title">WORKS</div>
+                <div class="content_title_box">
+                    <div class="content_title">WORKS</div>
+                </div>
                 <div class="box">
                     <div class="title_box">
                         <h1 class="title">
