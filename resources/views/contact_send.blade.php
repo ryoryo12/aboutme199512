@@ -103,6 +103,7 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
 							right: 0px;
 							border-left: solid 1px #FF8C00;
 							height: 100%;
+							top: 0px;
 					}
 
 				a {
