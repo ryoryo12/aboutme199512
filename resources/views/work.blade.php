@@ -44,17 +44,17 @@
             }
 
             .left_content{
-                background-color: #FF8C00;
-                width: 15%;
+                width: 14%;
                 height: 100%;
                 position: fixed;
+                border-right: solid 1px #FFA500;
             }
 
             .right_content{
                 width: 85%;
                 position: absolute;
-                height: 100vh;
                 right: 0px;
+                border-left: solid 1px #FF8C00;
             }
 
             .content_title_box{
@@ -77,7 +77,7 @@
             .box{
                 width: 800px;
                 margin: 10px auto;
-                background-color: #111111;
+                background-color: #FFA500;
             }
 
             .img_box{
