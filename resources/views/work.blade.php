@@ -54,9 +54,20 @@
                 height: 100vh;
             }
 
-            .card{
+            .box{
                 height: 300px;
+                width: 900px;
+                margin: 20px auto;
+            }
 
+            .img_box{
+                height: 300px;
+                width : 500px;
+            }
+
+            img{
+                width: 300px;
+                height: 300px;
             }
 
         </style>
@@ -72,8 +83,10 @@
                 </ul>
             </div>
             <div class="right_content">
-                <div class="box_1">
-                    <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
+                <div class="box">
+                    <div class="img_box">
+                        <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
+                    </div>
                     <div class="title_box">
                         <h1 class="title">
                             practice
@@ -84,11 +97,23 @@
                             a
                         </h2>
                     </div>
-
                 </div>
-                <div class="box_2">
-                    
+                <div class="box">
+                    <div class="img_box">
+                        <img src="https://i.gyazo.com/437f494d4d6c936811dbe6013bf12491.png" class="card-img" alt="...">
+                    </div>
+                    <div class="title_box">
+                        <h1 class="title">
+                            practice
+                        </h1>
+                    </div>
+                    <div class="text_box">
+                        <h2 class="text">
+                            a
+                        </h2>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </body>
