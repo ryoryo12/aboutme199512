@@ -38,7 +38,12 @@
             }
 
             a{
-                
+                display: block;
+                margin: 150px; 
+                font-size: 22px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
             }
 
             .content {
