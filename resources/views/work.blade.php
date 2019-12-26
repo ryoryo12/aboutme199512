@@ -150,7 +150,7 @@
                 <div class="box">
                     <div class="title_box">
                         <h1 class="title">
-                            サイト名：practice
+                            サイト名：freemarket_sample_61d
                         </h1>
                     </div>
                     <div class="img_box">
