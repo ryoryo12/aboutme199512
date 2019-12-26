@@ -151,7 +151,7 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            
+                            <a href=""></a>
                         </h2>
                     </div>
                 </div>
@@ -166,7 +166,8 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            内容：
+                            
+                            <a href=""></a>
                         </h2>
                     </div>
                 </div>
