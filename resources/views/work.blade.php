@@ -167,7 +167,7 @@
                     <div class="text_box">
                         <h2 class="text">
                             
-                            <a href=""></a>
+                            <a href="http://3.112.169.24/">http://3.112.169.24/</a>
                         </h2>
                     </div>
                 </div>
