@@ -152,7 +152,7 @@
                     <div class="text_box">
                         <h2 class="text">
                             料理レシピ投稿サービスです。私が担当した箇所はユーザーのマイページ　ユーザーの一覧表示機能　トップページのマークアップ　レシピの詳細表示　ユーザーのプロフィール編集ページです。
-                            言語はRuby,DBはMySQL,本番環境はHerokuです。下記URLからご覧いただけます
+                            言語はRuby,DBはMySQL,本番環境はHerokuです。下記URLからご覧いただけます。
 
                             <a href="https://myrecipess.herokuapp.com/">https://myrecipess.herokuapp.com/</a>
                         </h2>
@@ -169,7 +169,8 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            
+                        フリーマーケットアプリケーションである「メルカリ」のコピーサイトを作成しました。担当箇所はトップページ　商品一覧表示機能　商品購入機能　カテゴリーごとの商品の一覧表示機能　モデルのテスト
+
                             <a href="http://3.112.169.24/">http://3.112.169.24/</a>
                         </h2>
                     </div>
