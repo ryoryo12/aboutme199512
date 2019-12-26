@@ -151,7 +151,7 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            内容：
+                            
                         </h2>
                     </div>
                 </div>
