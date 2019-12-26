@@ -130,6 +130,7 @@
                         <h2 class="text">
                             麻雀に関係する機能を詰め込んだアプリです。点数計算表、電卓アプリ、メモ機能、ブロック崩しゲームの実装を致しました。
                             言語はRuby,DBはPostgres,本番環境はHerokuです。
+                            <a href="https://github.com/ryoryo12"></a>
                             
                         </h2>
                     </div>
