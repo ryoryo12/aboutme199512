@@ -7,6 +7,8 @@
         <title>About_Me</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
+
             <script>
                 $(function() {
                     setTimeout(function(){
@@ -16,6 +18,72 @@
                         $('.start').fadeOut(500);
                     },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
                 });
+
+                window.addEventListener('DOMContentLoaded', init);
+
+                function init() {
+                    
+                    var container = document.getElementById( 'view' );
+                    document.body.appendChild( container );
+
+                    var width = container.clientWidth;
+                    var height = container.clientHeight;
+
+                    // レンダラーを作成
+                    var renderer = new THREE.WebGLRenderer();
+                    renderer.setSize(width, height );
+                    renderer.setClearColor(0xffffff);
+                    container.appendChild( renderer.domElement );
+                    
+
+                    // シーンを作成
+                    var scene = new THREE.Scene();
+
+                    // カメラを作成
+                    var camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
+                    camera.position.set(100, 0, 150);
+
+                    // オブジェクトを作成
+                    var geometry = new THREE.SphereGeometry( 100, 40, 40 );
+                    var material = new THREE.MeshPhongMaterial( {
+                        color : 0xffffff,
+                        specular : 0xffffff,
+                        emissive : 0xffffff,
+                        polygonOffset: true,
+                        polygonOffsetFactor: 1,
+                        polygonOffsetUnits: 1
+                    } );
+
+                    var mesh = new THREE.Mesh(geometry, material);
+                    scene.add( mesh );
+
+
+
+                    // ワイヤーフレーム
+                    var geo = new THREE.EdgesGeometry( mesh.geometry );
+                    var mat = new THREE.LineBasicMaterial( { color: 0xbbbbbb, linewidth: 2 } );
+                    var wireframe = new THREE.LineSegments( geo, mat );
+                    mesh.add( wireframe );
+
+
+                    var light = new THREE.AmbientLight( 0x404040, 1 ); // soft white light
+                    scene.add( light );
+
+                    renderer.render(scene, camera);
+
+                    // アニメーション実行
+                    animate();
+
+                    function animate() {
+                        requestAnimationFrame(animate);
+
+                        // オブジェクトを回転
+                        mesh.rotation.y += 0.001;
+
+                        // レンダリング
+                        renderer.render(scene, camera);
+                    }
+                }
             </script>
         </script>
 
