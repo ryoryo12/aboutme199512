@@ -24,7 +24,7 @@
                 margin: 0;
             }
 
-            ul {
+            .links a {
                 display: block;
                 margin: 150px; 
                 transform: rotate(270deg);
@@ -38,11 +38,7 @@
             }
 
             a{
-                display: block;
-                margin: 150px; 
-                font-size: 22px;
-                font-weight: 600;
-                letter-spacing: .1rem;
+                color: #777777;
                 text-decoration: none;
             }
 
@@ -138,7 +134,7 @@
                     <div class="text_box">
                         <h2 class="text">
                             麻雀に関係する機能を詰め込んだアプリです。点数計算表、電卓アプリ、メモ機能、ブロック崩しゲームの実装を致しました。
-                            言語はRuby,DBはPostgres,本番環境はHerokuです。
+                            言語はRuby,DBはPostgres,本番環境はHerokuです。下記URLからご覧いただけます。
                             <a href="https://practice951220.herokuapp.com/">https://practice951220.herokuapp.com/</a>
                             
                         </h2>
