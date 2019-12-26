@@ -151,6 +151,7 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
+                            料理レシピ投稿サービスです。
                             <a href="https://myrecipess.herokuapp.com/">https://myrecipess.herokuapp.com/</a>
                         </h2>
                     </div>
