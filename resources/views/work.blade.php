@@ -151,7 +151,10 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            料理レシピ投稿サービスです。
+                            料理レシピ投稿サービスです。私が担当した箇所はユーザーのマイページ　ユーザーの一覧表示機能　トップページのマークアップ　レシピの詳細表示　ユーザーのプロフィール編集ページです。
+                            言語はRuby,
+                            DBは　
+
                             <a href="https://myrecipess.herokuapp.com/">https://myrecipess.herokuapp.com/</a>
                         </h2>
                     </div>
