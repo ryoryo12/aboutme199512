@@ -128,7 +128,7 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            内容：
+                            内容：麻雀に関係する機能を
                         </h2>
                     </div>
                 </div>
