@@ -7,6 +7,7 @@
         <title>About_Me</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
             <script>
                 $(function() {
                     setTimeout(function(){
@@ -23,6 +24,36 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <style>
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            *, *:before, *:after {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            #view {
+                color: #fff;
+                width: 100%;
+                height: 400px;
+                text-align: center;
+                background: #000;
+                position: relative;
+            }
+            #view h1 {
+                top: 50%;
+                margin-top: -20px;
+                position: absolute;
+                width: 100%;
+                text-align: center;
+            }
             
             html, body {
                 background-color: #333333;
@@ -219,7 +250,10 @@
                 </ul>
             </div>
             <div class ="center_content">
-                <div class="title">
+            <div id="view">
+                <h1>Sphere Wireframe</h1>
+            </div>
+                <!-- <div class="title">
                     Thanks
                 <br>
                     For
@@ -244,7 +278,7 @@
                 </div>
                 <div class="accent_2_shadow">
                 .
-                </div>
+                </div> -->
                 <div class="boxes_1"></div>
                 <div class="boxes_2"></div>
                 <div class="boxes_1_shadow"></div>
