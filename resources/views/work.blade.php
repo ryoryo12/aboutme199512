@@ -151,7 +151,7 @@
                     </div>
                     <div class="text_box">
                         <h2 class="text">
-                            <a href=""></a>
+                            <a href="https://myrecipess.herokuapp.com/">https://myrecipess.herokuapp.com/</a>
                         </h2>
                     </div>
                 </div>
