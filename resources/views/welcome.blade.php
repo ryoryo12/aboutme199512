@@ -10,14 +10,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
 
             <script>
-                $(function() {
-                    setTimeout(function(){
-                        $('.start p').fadeIn(1600);
-                    },500); //0.5秒後にロゴをフェードイン!
-                    setTimeout(function(){
-                        $('.start').fadeOut(500);
-                    },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
-                });
+                // $(function() {
+                //     setTimeout(function(){
+                //         $('.start p').fadeIn(1600);
+                //     },500); //0.5秒後にロゴをフェードイン!
+                //     setTimeout(function(){
+                //         $('.start').fadeOut(500);
+                //     },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
+                // });
 
                 window.addEventListener('DOMContentLoaded', init);
 
@@ -92,7 +92,7 @@
         <!-- Styles -->
         <style>
             
-            /* html, body {
+            html, body {
                 background-color: #333333;
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
@@ -249,7 +249,7 @@
                 margin-top: 600px;
                 font-size: 20px;
                 width: 300px;
-            } */
+            } 
 
             .start {
                 background: #222222;
@@ -314,10 +314,10 @@
             <p>WELCOME</p>
         </div>
         <div class="content">
-            <div id="view">
+            <div class="view" id="view">
                 <h1><span>Sphere Wireframe</span></h1>
             </div>
-            <!-- <div class ="left_content">
+            <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
@@ -369,7 +369,6 @@
                     based in Tokyo
                 </div>
             </div>
-             -->
         </div>
     </body>
 </html>
