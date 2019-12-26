@@ -24,7 +24,7 @@
         <!-- Styles -->
         <style>
             
-            html, body {
+            /* html, body {
                 background-color: #333333;
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
@@ -181,7 +181,7 @@
                 margin-top: 600px;
                 font-size: 20px;
                 width: 300px;
-            }
+            } */
 
             .start {
                 background: #222222;
@@ -203,6 +203,42 @@
                 display: none;
             }
 
+            * {
+            margin: 0;
+            padding: 0;
+            }
+            *, *:before, *:after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+            }
+            body {
+            font-family: 'Roboto', sans-serif;
+            }
+
+            #view {
+            color: #000;
+            width: 100%;
+            height: 400px;
+            text-align: center;
+            background: #fff;
+            position: relative;
+            }
+            #view h1 {
+            top: 50%;
+            margin-top: -20px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            }
+            #view h1 span {
+            color: #fff;
+            background: rgba(0,0,0,.8);
+            padding: 10px 30px;
+            }
+
+
         </style>
     </head>
     <body>
@@ -210,7 +246,10 @@
             <p>WELCOME</p>
         </div>
         <div class="content">
-            <div class ="left_content">
+            <div id="view">
+                <h1><span>Sphere Wireframe</span></h1>
+            </div>
+            <!-- <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
@@ -262,7 +301,7 @@
                     based in Tokyo
                 </div>
             </div>
-            
+             -->
         </div>
     </body>
 </html>
