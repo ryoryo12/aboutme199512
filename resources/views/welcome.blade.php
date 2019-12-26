@@ -7,83 +7,15 @@
         <title>About_Me</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
-
             <script>
-                // $(function() {
-                //     setTimeout(function(){
-                //         $('.start p').fadeIn(1600);
-                //     },500); //0.5秒後にロゴをフェードイン!
-                //     setTimeout(function(){
-                //         $('.start').fadeOut(500);
-                //     },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
-                // });
-
-                window.addEventListener('DOMContentLoaded', init);
-
-                function init() {
-                    
-                    var container = document.getElementById( 'view' );
-                    document.body.appendChild( container );
-
-                    var width = container.clientWidth;
-                    var height = container.clientHeight;
-
-                    // レンダラーを作成
-                    var renderer = new THREE.WebGLRenderer();
-                    renderer.setSize(width, height );
-                    renderer.setClearColor(0xffffff);
-                    container.appendChild( renderer.domElement );
-                    
-
-                    // シーンを作成
-                    var scene = new THREE.Scene();
-
-                    // カメラを作成
-                    var camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
-                    camera.position.set(100, 0, 150);
-
-                    // オブジェクトを作成
-                    var geometry = new THREE.SphereGeometry( 100, 40, 40 );
-                    var material = new THREE.MeshPhongMaterial( {
-                        color : 0xffffff,
-                        specular : 0xffffff,
-                        emissive : 0xffffff,
-                        polygonOffset: true,
-                        polygonOffsetFactor: 1,
-                        polygonOffsetUnits: 1
-                    } );
-
-                    var mesh = new THREE.Mesh(geometry, material);
-                    scene.add( mesh );
-
-
-
-                    // ワイヤーフレーム
-                    var geo = new THREE.EdgesGeometry( mesh.geometry );
-                    var mat = new THREE.LineBasicMaterial( { color: 0xbbbbbb, linewidth: 2 } );
-                    var wireframe = new THREE.LineSegments( geo, mat );
-                    mesh.add( wireframe );
-
-
-                    var light = new THREE.AmbientLight( 0x404040, 1 ); // soft white light
-                    scene.add( light );
-
-                    renderer.render(scene, camera);
-
-                    // アニメーション実行
-                    animate();
-
-                    function animate() {
-                        requestAnimationFrame(animate);
-
-                        // オブジェクトを回転
-                        mesh.rotation.y += 0.001;
-
-                        // レンダリング
-                        renderer.render(scene, camera);
-                    }
-                }
+                $(function() {
+                    setTimeout(function(){
+                        $('.start p').fadeIn(1600);
+                    },500); //0.5秒後にロゴをフェードイン!
+                    setTimeout(function(){
+                        $('.start').fadeOut(500);
+                    },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
+                });
             </script>
         </script>
 
@@ -249,7 +181,7 @@
                 margin-top: 600px;
                 font-size: 20px;
                 width: 300px;
-            } 
+            }
 
             .start {
                 background: #222222;
@@ -271,42 +203,6 @@
                 display: none;
             }
 
-            * {
-            margin: 0;
-            padding: 0;
-            }
-            *, *:before, *:after {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -ms-box-sizing: border-box;
-            box-sizing: border-box;
-            }
-            body {
-            font-family: 'Roboto', sans-serif;
-            }
-
-            #view {
-            color: #000;
-            width: 100%;
-            height: 400px;
-            text-align: center;
-            background: #fff;
-            position: relative;
-            }
-            #view h1 {
-            top: 50%;
-            margin-top: -20px;
-            position: absolute;
-            width: 100%;
-            text-align: center;
-            }
-            #view h1 span {
-            color: #fff;
-            background: rgba(0,0,0,.8);
-            padding: 10px 30px;
-            }
-
-
         </style>
     </head>
     <body>
@@ -314,9 +210,6 @@
             <p>WELCOME</p>
         </div>
         <div class="content">
-            <div class="view" id="view">
-                <h1><span>Sphere Wireframe</span></h1>
-            </div>
             <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
@@ -369,6 +262,7 @@
                     based in Tokyo
                 </div>
             </div>
+            
         </div>
     </body>
 </html>
