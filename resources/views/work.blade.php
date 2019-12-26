@@ -24,7 +24,7 @@
                 margin: 0;
             }
 
-            a {
+            ul {
                 display: block;
                 margin: 150px; 
                 transform: rotate(270deg);
@@ -35,6 +35,10 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+
+            a{
+                
             }
 
             .content {
@@ -130,7 +134,7 @@
                         <h2 class="text">
                             麻雀に関係する機能を詰め込んだアプリです。点数計算表、電卓アプリ、メモ機能、ブロック崩しゲームの実装を致しました。
                             言語はRuby,DBはPostgres,本番環境はHerokuです。
-                            <a href="https://github.com/ryoryo12"></a>
+                            <a href="https://practice951220.herokuapp.com/">https://practice951220.herokuapp.com/</a>
                             
                         </h2>
                     </div>
