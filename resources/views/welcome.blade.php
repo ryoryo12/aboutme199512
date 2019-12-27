@@ -282,7 +282,7 @@
                 width: 300px;
             }
 
-            /* .start {
+            .start {
                 background: #222222;
                 position: fixed;
                 top: 0;
@@ -300,7 +300,7 @@
                 font-size: 200px;
                 bottom: -390px;
                 display: none;
-            } */
+            }
 
         </style>
     </head>
