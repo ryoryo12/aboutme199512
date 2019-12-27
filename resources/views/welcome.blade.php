@@ -17,6 +17,67 @@
                         $('.start').fadeOut(500);
                     },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
                 });
+
+                window.addEventListener('DOMContentLoaded', init);
+
+                    function init() {
+                        var container = document.getElementById( 'view' );
+                        document.body.appendChild( container );
+
+                        var width = container.clientWidth;
+                        var height = container.clientHeight;
+
+                        // レンダラーを作成
+                        var renderer = new THREE.WebGLRenderer();
+                        renderer.setSize(width, height );
+                        container.appendChild( renderer.domElement );
+
+                        // シーンを作成
+                        var scene = new THREE.Scene();
+
+                        // カメラを作成
+                        var camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
+                        camera.position.set(0, 100, 100);
+
+                        // オブジェクトを作成
+                        var geometry = new THREE.SphereGeometry( 100, 40, 40 );
+
+                        var material = new THREE.MeshPhongMaterial( {
+                            color: 0x000000,
+                            polygonOffset: true,
+                            polygonOffsetFactor: 1,
+                            polygonOffsetUnits: 1
+                        } );
+
+                        var mesh = new THREE.Mesh(geometry, material);
+                        scene.add( mesh );
+
+                        // ワイヤーフレーム
+                        var geo = new THREE.EdgesGeometry( mesh.geometry );
+                        var mat = new THREE.LineBasicMaterial( { color: 0x666666, linewidth: 2 } );
+                        var wireframe = new THREE.LineSegments( geo, mat );
+                        mesh.add( wireframe );
+                        
+                        // ライト作成
+                        var light = new THREE.AmbientLight( 0x404040, 1 ); // soft white light
+                        scene.add( light );
+
+                        renderer.render(scene, camera);
+
+
+                        // アニメーション実行
+                        animate();
+                        function animate() {
+                            requestAnimationFrame(animate);
+
+                            // オブジェクト回転
+                            // mesh.rotation.x += 0.01;
+                            mesh.rotation.y += 0.001;
+
+                            // レンダリング
+                            renderer.render(scene, camera);
+                        }
+                    }
             </script>
         </script>
 
@@ -240,7 +301,9 @@
         <div class="start">
             <p>WELCOME</p>
         </div>
-        <div class="content">
+        <div id="view">
+            <h1>Sphere Wireframe</h1>
+        </div>
             <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
@@ -250,9 +313,6 @@
                 </ul>
             </div>
             <div class ="center_content">
-            <div id="view">
-                <h1>Sphere Wireframe</h1>
-            </div>
                 <!-- <div class="title">
                     Thanks
                 <br>
