@@ -267,9 +267,12 @@
             }
 
             .right_content{
-                height: 100vh;
+                height: 100%;
                 width: 15%;
                 right: 0px;
+                position: absolute;
+                top: 0px;
+                z-index: 1001;
             }
 
             .right_text{
