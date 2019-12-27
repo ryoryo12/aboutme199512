@@ -282,25 +282,6 @@
                 width: 300px;
             }
 
-            .start {
-                background: #222222;
-                position: fixed;
-                top: 0;
-                left: 0;
-                height: 100%;
-                width: 100%;
-                z-index: 9000;
-            }
-            .start p {
-                position: fixed;
-                right: 580px;
-                transform: translate(-50%, -50%);
-                width: 280px;
-                color: #FF8C00;
-                font-size: 200px;
-                bottom: -390px;
-                display: none;
-            }
 
         </style>
     </head>
