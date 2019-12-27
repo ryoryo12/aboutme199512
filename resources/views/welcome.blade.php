@@ -104,7 +104,7 @@
                 position: fixed;
                 color: #fff;
                 width: 100%;
-                height: 400px;
+                height: 200px;
                 text-align: center;
                 background: #000;
                 bottom: 0px;
@@ -349,7 +349,7 @@
             <div class ="center_content_shadow"></div>
 
             </div>
-         -->
+        -->
             <div class ="right_content">
                 <div class="right_text">
                     I'm Ryota
