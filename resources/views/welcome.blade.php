@@ -107,7 +107,7 @@
                 height: 400px;
                 text-align: center;
                 background: #000;
-                position: relative;
+                bottom: 0px;
             }
             #view h1 {
                 top: 50%;
@@ -147,8 +147,10 @@
             }
 
             .content {
-            height: 100vh;
-            width: 100%;
+                height: 100%;
+                width: 100%;
+                top: 0px;
+                position: absolute;
             }
 
             .left_content{
