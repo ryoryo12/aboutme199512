@@ -9,15 +9,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
             <script>
-                $(function() {
-                    setTimeout(function(){
-                        $('.start p').fadeIn(1600);
-                    },500); //0.5秒後にロゴをフェードイン!
-                    setTimeout(function(){
-                        $('.start').fadeOut(500);
-                    },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
-                });
-
                 window.addEventListener('DOMContentLoaded', init);
 
                     function init() {
@@ -78,6 +69,16 @@
                             renderer.render(scene, camera);
                         }
                     }
+
+            $(function() {
+                setTimeout(function(){
+                    $('.start p').fadeIn(1600);
+                },500); //0.5秒後にロゴをフェードイン!
+                setTimeout(function(){
+                    $('.start').fadeOut(500);
+                },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
+            });
+
             </script>
         </script>
 
@@ -305,9 +306,9 @@
         </style>
     </head>
     <body>
-        <!-- <div class="start">
-            <p>WELCOME</p>
-        </div> -->
+    <div class="start">
+        <p>WELCOME</p>
+    </div>
         <div class="content">
             <div id="view">
                 <h1>Sphere Wireframe</h1>
