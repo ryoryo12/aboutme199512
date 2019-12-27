@@ -312,7 +312,7 @@
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
-            <div class ="center_content">
+            <!-- <div class ="center_content"> -->
                 <!-- <div class="title">
                     Thanks
                 <br>
