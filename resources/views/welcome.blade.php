@@ -70,14 +70,14 @@
                         }
                     }
 
-            $(function() {
-                setTimeout(function(){
-                    $('.start p').fadeIn(1600);
-                },500); //0.5秒後にロゴをフェードイン!
-                setTimeout(function(){
-                    $('.start').fadeOut(500);
-                },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
-            });
+            // $(function() {
+            //     setTimeout(function(){
+            //         $('.start p').fadeIn(1600);
+            //     },500); //0.5秒後にロゴをフェードイン!
+            //     setTimeout(function(){
+            //         $('.start').fadeOut(500);
+            //     },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
+            // });
 
             </script>
         </script>
@@ -282,7 +282,7 @@
                 width: 300px;
             }
 
-            .start {
+            /* .start {
                 background: #222222;
                 position: fixed;
                 top: 0;
@@ -300,14 +300,14 @@
                 font-size: 200px;
                 bottom: -390px;
                 display: none;
-            }
+            } */
 
         </style>
     </head>
     <body>
-    <div class="start">
+    <!-- <div class="start">
         <p>WELCOME</p>
-    </div>
+    </div> -->
         <div class="content">
             <div id="view">
                 <h1>Sphere Wireframe</h1>
