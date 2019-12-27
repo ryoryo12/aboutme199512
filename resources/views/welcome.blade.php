@@ -106,7 +106,7 @@
                 width: 100%;
                 height: 400px;
                 text-align: center;
-                bottom: 50px;
+                bottom: 0px;
             }
 
             #view h1 {
