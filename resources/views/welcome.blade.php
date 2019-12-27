@@ -104,7 +104,7 @@
                 position: fixed;
                 color: #fff;
                 width: 100%;
-                height: 200px;
+                height: 400px;
                 text-align: center;
                 background: #000;
                 bottom: 0px;
