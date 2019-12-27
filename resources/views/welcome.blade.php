@@ -298,13 +298,13 @@
         </style>
     </head>
     <body>
-        <div class="start">
+        <!-- <div class="start">
             <p>WELCOME</p>
-        </div>
+        </div> -->
         <div id="view">
             <h1>Sphere Wireframe</h1>
         </div>
-            <!-- <div class ="left_content">
+            <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
