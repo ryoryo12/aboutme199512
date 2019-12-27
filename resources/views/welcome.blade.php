@@ -156,6 +156,8 @@
             .left_content{
                 width: 15%;
                 top: 0px;
+                z-index: 1;
+                position: absolute;
             }
 
 
