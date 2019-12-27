@@ -315,8 +315,8 @@
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
-            <!-- <div class ="center_content"> -->
-                <!-- <div class="title">
+                <!-- <div class ="center_content"> 
+                <div class="title">
                     Thanks
                 <br>
                     For
@@ -341,15 +341,15 @@
                 </div>
                 <div class="accent_2_shadow">
                 .
-                </div> -->
-                <!-- <div class="boxes_1"></div>
+                </div> 
+                <div class="boxes_1"></div>
                 <div class="boxes_2"></div>
                 <div class="boxes_1_shadow"></div>
                 <div class="boxes_2_shadow"></div>
             <div class ="center_content_shadow"></div>
 
             </div>
-        
+         -->
             <div class ="right_content">
                 <div class="right_text">
                     I'm Ryota
@@ -358,7 +358,7 @@
                 <br>
                     based in Tokyo
                 </div>
-            </div> -->
+            </div>
             
         </div>
     </body>
