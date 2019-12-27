@@ -106,9 +106,9 @@
                 width: 100%;
                 height: 400px;
                 text-align: center;
-                background: #000;
                 bottom: 0px;
             }
+
             #view h1 {
                 top: 50%;
                 margin-top: -20px;
@@ -118,7 +118,7 @@
             }
             
             html, body {
-                background-color: #333333;
+                background-color: #000;
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
