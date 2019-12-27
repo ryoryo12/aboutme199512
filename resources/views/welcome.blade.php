@@ -101,6 +101,7 @@
             }
 
             #view {
+                position: fixed;
                 color: #fff;
                 width: 100%;
                 height: 400px;
@@ -148,7 +149,6 @@
             .content {
             height: 100vh;
             width: 100%;
-            display: flex;
             }
 
             .left_content{
@@ -301,9 +301,10 @@
         <!-- <div class="start">
             <p>WELCOME</p>
         </div> -->
-        <div id="view">
-            <h1>Sphere Wireframe</h1>
-        </div>
+        <div class="content">
+            <div id="view">
+                <h1>Sphere Wireframe</h1>
+            </div>
             <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
