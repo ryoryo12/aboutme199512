@@ -339,7 +339,7 @@
                 <div class="accent_2_shadow">
                 .
                 </div> -->
-                <div class="boxes_1"></div>
+                <!-- <div class="boxes_1"></div>
                 <div class="boxes_2"></div>
                 <div class="boxes_1_shadow"></div>
                 <div class="boxes_2_shadow"></div>
@@ -355,7 +355,7 @@
                 <br>
                     based in Tokyo
                 </div>
-            </div>
+            </div> -->
             
         </div>
     </body>
