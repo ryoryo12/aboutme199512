@@ -304,7 +304,7 @@
         <div id="view">
             <h1>Sphere Wireframe</h1>
         </div>
-            <div class ="left_content">
+            <!-- <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
@@ -312,7 +312,7 @@
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
-            <div class ="center_content">
+            <div class ="center_content"> -->
                 <!-- <div class="title">
                     Thanks
                 <br>
