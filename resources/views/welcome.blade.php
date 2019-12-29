@@ -88,6 +88,7 @@
                 font-size: 100px;
                 height: 100vh;
                 width: 70%;
+                margin: 0 auto;
 
                 
             }
