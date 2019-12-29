@@ -87,36 +87,6 @@
         <!-- Styles -->
         <style>
 
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            *, *:before, *:after {
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                -ms-box-sizing: border-box;
-                box-sizing: border-box;
-            }
-            body {
-                font-family: 'Roboto', sans-serif;
-            }
-
-            #view {
-                position: fixed;
-                width: 100%;
-                height: 400px;
-                text-align: center;
-                bottom: 0px;
-            }
-
-            #view h1 {
-                top: 50%;
-                margin-top: -20px;
-                position: absolute;
-                width: 100%;
-                text-align: center;
-            }
-            
             html, body {
                 background-color: #000;
                 color: #777777;
