@@ -59,13 +59,11 @@
                 height: 100%;
                 width: 100%;
                 top: 0px;
-                position: absolute;
             }
 
             .left_content{
                 width: 15%;
                 top: 0px;
-                z-index: 1;
                 position: absolute;
             }
 
@@ -181,7 +179,6 @@
                 right: 0px;
                 position: absolute;
                 top: 0px;
-                z-index: 1001;
             }
 
             .right_text{
