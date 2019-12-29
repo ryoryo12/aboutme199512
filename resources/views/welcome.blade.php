@@ -64,7 +64,8 @@
             .left_content{
                 width: 15%;
                 top: 0px;
-                position: absolute;
+                position: fixed;
+                left: 0;
             }
 
 
@@ -87,6 +88,7 @@
                 font-size: 100px;
                 height: 100vh;
                 width: 70%;
+
                 
             }
             .center_content_shadow {
@@ -223,7 +225,7 @@
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
-                <div class ="center_content"> 
+            <div class ="center_content"> 
                 <div class="title">
                     Thanks
                 <br>
