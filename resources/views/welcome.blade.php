@@ -282,7 +282,7 @@
                 width: 300px;
             }
 
-            /* .start {
+            .start {
                 background: #222222;
                 position: fixed;
                 top: 0;
@@ -300,18 +300,15 @@
                 font-size: 200px;
                 bottom: -390px;
                 display: none;
-            } */
+            }
 
         </style>
     </head>
     <body>
-    <!-- <div class="start">
+    <div class="start">
         <p>WELCOME</p>
-    </div> -->
+    </div>
         <div class="content">
-            <div id="view">
-                <h1>Sphere Wireframe</h1>
-            </div>
             <div class ="left_content">
                 <ul class="links">
                     <a href="/work">Works</a>
@@ -320,7 +317,7 @@
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
-                <!-- <div class ="center_content"> 
+                <div class ="center_content"> 
                 <div class="title">
                     Thanks
                 <br>
@@ -354,7 +351,6 @@
             <div class ="center_content_shadow"></div>
 
             </div>
-        -->
             <div class ="right_content">
                 <div class="right_text">
                     I'm Ryota
