@@ -27,48 +27,38 @@
         <style>
 
             html, body {
-                background-color: #000;
+                background-color: #333333;
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
             }
-
             .full-height {
                 height: 100vh;
             }
-
             .flex-center {
                 align-items: center;
                 display: flex;
                 justify-content: center;
             }
-
             .position-ref {
                 position: relative;
             }
-
             .top-right {
                 position: absolute;
                 right: 10px;
                 top: 18px;
             }
-
             .content {
-                height: 100%;
-                width: 100%;
-                top: 0px;
+            height: 100vh;
+            width: 100%;
+            display: flex;
             }
-
             .left_content{
                 width: 15%;
                 top: 0px;
-                position: fixed;
-                left: 0;
             }
-
-
             a {
                 display: block;
                 margin: 150px; 
@@ -81,14 +71,12 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
             .center_content {
                 border-left: solid 1px #FF8C00;
                 border-right: solid 1px #FF8C00;
                 font-size: 100px;
                 height: 100vh;
                 width: 70%;
-
                 
             }
             .center_content_shadow {
@@ -101,18 +89,15 @@
                 width: 72%;
                 position: absolute;
             }
-
             .title{
                 margin: 12% 20px;
                 color: #AAAAAA;
                 position: absolute;
             }
-
             .title_shadow{
                 margin: 20% 35px;
                 color: #666666;
             }
-
             .accent_1{
                 position: absolute;
                 color: #FF8C00;
@@ -121,7 +106,6 @@
                 left: 439px;
                 
             }
-
             .accent_2{
                 position: absolute;
                 color: #FF8C00;
@@ -129,7 +113,6 @@
                 font-size: 200px;
                 left: 542px;
             }
-
             .accent_1_shadow{
                 position: absolute;
                 color: #FFA500;
@@ -137,7 +120,6 @@
                 top: 391px;
                 font-size: 120px;
             }
-
             .accent_2_shadow{
                 position: absolute;
                 color: #FFA500;
@@ -145,7 +127,6 @@
                 font-size: 200px;
                 left: 560px;
             }
-
             .boxes_1{
                 width: 85%;
                 position: absolute;
@@ -174,15 +155,11 @@
                 bottom: 8vh;
                 left: 1%;
             }
-
             .right_content{
-                height: 100%;
+                height: 100vh;
                 width: 15%;
                 right: 0px;
-                position: absolute;
-                top: 0px;
             }
-
             .right_text{
                 transform: rotate(270deg);
                 margin-top: 600px;
