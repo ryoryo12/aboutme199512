@@ -79,7 +79,6 @@
                 font-size: 100px;
                 height: 100vh;
                 width: 70%;
-                
             }
             .center_content_shadow {
                 top: 0;
@@ -195,7 +194,7 @@
     <div class="start">
         <p>WELCOME</p>
     </div>
-            <img src="top.jpg">
+        <div class="content">
             <div class ="left_content">
                 <ul class="links">
                     <a href="/prof">Profile</a>
@@ -205,7 +204,8 @@
                 </ul>
             </div>
             <div class ="center_content"> 
-                <div class="title">
+                <img src="top.jpg">
+                <!-- <div class="title">
                     Thanks
                 <br>
                     For
@@ -230,9 +230,7 @@
                 </div>
                 <div class="accent_2_shadow">
                 .
-                </div> 
-                <div class="boxes_1"></div>
-                <div class="boxes_2"></div>
+                </div>  -->
                 <div class="boxes_1_shadow"></div>
                 <div class="boxes_2_shadow"></div>
             <div class ="center_content_shadow"></div>
