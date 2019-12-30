@@ -78,9 +78,9 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
         <div class="content">
             <div class ="left_content">
                 <ul class="links">
+                    <a href="/prof">Profile</a>
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
-                    <a href="https://www.facebook.com/ryota.hirata.986">Facebook</a>
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
