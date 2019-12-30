@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller as BaseController;
 class ContactFormController extends Controller
 {
   public function index(){
-      return view('Contact_form');
+      return view('contact_form');
   }
 }
 
