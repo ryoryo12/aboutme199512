@@ -27,9 +27,10 @@
         <style>
 
             html, body {
-                background: #42275a;
-                background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-                background: linear-gradient(to right, #734b6d, #42275a);
+                background: #1e130c;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
