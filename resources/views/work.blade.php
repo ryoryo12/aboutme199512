@@ -16,12 +16,15 @@
         <style>
             
             html, body {
-                background-color: #333333;
+                background: #42275a;
+                background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+                background: linear-gradient(to right, #734b6d, #42275a);
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+
             }
 
             .links a {
@@ -114,7 +117,7 @@
                 <ul class="links">
                     <a href="/prof">Profile</a>
                     <a href="/work">Works</a>
-                    <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://github.com/ryoryo12" target="_blank">GitHub</a>
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
