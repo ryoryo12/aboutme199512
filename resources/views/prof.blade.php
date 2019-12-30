@@ -6,6 +6,7 @@
 
         <title>Profile</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
             <script>
             </script>
         </script>
@@ -62,7 +63,17 @@
                 position: absolute;
                 right: 0px;
                 border-left: solid 1px #FF8C00;
+                height: 100%;
             }
+
+            .right_content_text_box{
+                width: 85%;
+                position: absolute;
+                right: 0px;
+                border-left: solid 1px #FF8C00;
+                height: 100%;
+            }
+
 
         </style>
     </head>
@@ -77,7 +88,9 @@
                 </ul>
             </div>
             <div class="right_content">
-                <div class="">
+                <div class="right_content_text_box">
+                    <div class="right_content_text">
+                    </div>
                 </div>
             </div>
         </div>
