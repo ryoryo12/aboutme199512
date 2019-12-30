@@ -11,18 +11,46 @@
 
             $(function() {
                 setTimeout(function(){
-                    $('.start p').fadeIn(1600);
+                    $('.start h1').fadeIn(1600);
                 },500); //0.5秒後にロゴをフェードイン!
                 setTimeout(function(){
+                    $('.start h2').fadeIn(1600);
+                },1500); //0.5秒後にロゴをフェードイン!
+                setTimeout(function(){
+                    $('.start h3').fadeIn(1600);
+                },2500); //0.5秒後にロゴをフェードイン!
+                setTimeout(function(){
                     $('.start').fadeOut(500);
-                },2000); //2秒後にロゴ含め真っ白背景をフェードアウト！
+                },4000); //2秒後にロゴ含め真っ白背景をフェードアウト！
             });
-
             </script>
-        </script>
+            
+            <script type="text/javascript">
+                timerID = setInterval('clock()',500); //0.5秒毎にclock()を実行
+
+                function clock() {
+                    document.getElementById("view_clock").innerHTML = getNow();
+                }
+
+                function getNow() {
+                    var now = new Date();
+                    var year = now.getFullYear();
+                    var mon = now.getMonth()+1; //１を足すこと
+                    var day = now.getDate();
+                    var hour = now.getHours();
+                    var min = now.getMinutes();
+                    var sec = now.getSeconds();
+
+                    //出力用
+                    var s = year + "/" + mon + "/" + day + "/" + hour + ":" + min + ":" + sec; 
+                    return s;
+                }
+                
+            </script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <!-- Styles -->
         <style>
 
@@ -169,7 +197,9 @@
             }
 
             .start {
-                background: #222222;
+                background: #42275a;
+                background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+                background: linear-gradient(to right, #734b6d, #42275a);
                 position: fixed;
                 top: 0;
                 left: 0;
@@ -177,23 +207,74 @@
                 width: 100%;
                 z-index: 9000;
             }
-            .start p {
-                position: fixed;
-                right: 580px;
-                transform: translate(-50%, -50%);
-                width: 280px;
+            .start h1 {
+                position: absolute;
+                margin: 0px;
                 color: #FF8C00;
-                font-size: 200px;
-                bottom: -390px;
+                font-size: 150px;
+                top: 0px;
+                left: 20px;
                 display: none;
             }
+
+            .start h2 {
+                position: absolute;
+                margin: 0px;
+                color: #FF8C00;
+                font-size: 150px;
+                top: 308px;
+                right: 500px;
+                display: none;
+            }
+
+            .start h3 {
+                position: absolute;
+                margin: 0px;
+                color: #FF8C00;
+                font-size: 150px;
+                right: 0;
+                bottom: 0;
+                display: none;
+            }
+
+            .footer{
+                height: 8vh;
+                position: fixed;
+                width: 70%;
+                bottom: 0px;
+                left: 15%;
+            }
+            .footer_text_box{
+                text-align: center;
+                bottom: 0px;
+                margin-top: 4vh;
+            }
+
+            i{
+                display: inline;
+                font-size: 20px;
+            }
+
+            .footer_text{
+                display: inline;
+                font-size: 30px;
+                font-variant: all-petite-caps;
+            }
+
+            span{
+                font-size: 20px;
+            }
+
+
 
         </style>
     </head>
     <body>
-    <div class="start">
-        <p>WELCOME</p>
-    </div>
+        <div class="start">
+            <h1>WELCOME</h1>
+            <h2>TO MY</h2>
+            <h3>PORTFOLIO</h3>
+        </div>
         <div class="content">
             <div class ="left_content">
                 <ul class="links">
@@ -230,10 +311,11 @@
                 <div class="accent_2_shadow">
                 .
                 </div> 
+                <div class="boxes_1"></div>
+                <div class="boxes_2"></div>
                 <div class="boxes_1_shadow"></div>
                 <div class="boxes_2_shadow"></div>
             <div class ="center_content_shadow"></div>
-
             </div>
             <div class ="right_content">
                 <div class="right_text">
@@ -242,6 +324,13 @@
                     I will work as a system engineer
                 <br>
                     based in Tokyo
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_text_box">
+                    <i class="fas fa-at"></i>
+                    <div class='footer_text'>ryoryo's portfolio</div>
+                    <span id="view_clock"></span>
                 </div>
             </div>
             
