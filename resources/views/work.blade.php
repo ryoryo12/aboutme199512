@@ -138,7 +138,7 @@
                         <h2 class="text">
                             麻雀に関係する機能を詰め込んだアプリです。点数計算表、電卓アプリ、メモ機能、ブロック崩しゲームの実装を致しました。
                             言語はRuby,DBはPostgres,本番環境はHerokuです。下記URLからご覧いただけます。
-                            <a href="https://practice951220.herokuapp.com/">https://practice951220.herokuapp.com/</a>
+                            <a href="https://practice951220.herokuapp.com/" target="_blank">https://practice951220.herokuapp.com/</a>
                             
                         </h2>
                     </div>
@@ -157,7 +157,7 @@
                             料理レシピ投稿サービスです。私が担当した箇所はユーザーのマイページ　ユーザーの一覧表示機能　トップページのマークアップ　レシピの詳細表示　ユーザーのプロフィール編集ページです。
                             言語はRuby,DBはMySQL,本番環境はHerokuです。下記URLからご覧いただけます。
 
-                            <a href="https://myrecipess.herokuapp.com/">https://myrecipess.herokuapp.com/</a>
+                            <a href="https://myrecipess.herokuapp.com/" target="_blank">https://myrecipess.herokuapp.com/</a>
                         </h2>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                             フリーマーケットアプリケーションである「メルカリ」のコピーサイトを作成しました。担当箇所はトップページ　商品一覧表示機能　商品購入機能　カテゴリーごとの商品の一覧表示機能　モデルのテストです。
                             言語はRuby,DBはMySQL,本番環境はAWS EC2です。下記URLからご覧いただけます。（id:admin pass:2222です。）
 
-                            <a href="http://3.112.169.24/">http://3.112.169.24/</a>
+                            <a href="http://3.112.169.24/" target="_blank">http://3.112.169.24/</a>
                         </h2>
                     </div>
                 </div>
