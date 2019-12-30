@@ -70,11 +70,13 @@
                 <ul class="links">
                     <a href="/prof">Profile</a>
                     <a href="/work">Works</a>
-                    <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://github.com/ryoryo12" target="_blank">GitHub</a>
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
             <div class="right_content">
+                <div class="">
+                </div>
             </div>
         </div>
     </body>
