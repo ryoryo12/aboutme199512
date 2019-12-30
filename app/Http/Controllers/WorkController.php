@@ -9,7 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 
 class WorkController extends Controller
 {
-  public function __invoke(){
-      return view('Work');
+  public function index(){
+      return view('work');
   }
 }
