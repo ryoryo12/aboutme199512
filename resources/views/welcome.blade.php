@@ -204,8 +204,7 @@
                 </ul>
             </div>
             <div class ="center_content"> 
-                <img src="top.jpg">
-                <!-- <div class="title">
+                <div class="title">
                     Thanks
                 <br>
                     For
@@ -230,7 +229,7 @@
                 </div>
                 <div class="accent_2_shadow">
                 .
-                </div>  -->
+                </div> 
                 <div class="boxes_1_shadow"></div>
                 <div class="boxes_2_shadow"></div>
             <div class ="center_content_shadow"></div>
