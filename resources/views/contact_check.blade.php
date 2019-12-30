@@ -85,7 +85,9 @@ if(count($errors) === 0){
         <style>
 
           html, body {
-              background-color: #333333;
+              background: #42275a;
+              background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+              background: linear-gradient(to right, #734b6d, #42275a);
               color: #777777;
               font-family: 'Nunito', sans-serif;
               font-weight: 200;
