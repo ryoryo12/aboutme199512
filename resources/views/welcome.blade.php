@@ -196,7 +196,7 @@
         <div class="content">
             <div class ="left_content">
                 <ul class="links">
-                    <a href="/work">Profile</a>
+                    <a href="/prof">Profile</a>
                     <a href="/work">Works</a>
                     <a href="https://github.com/ryoryo12">GitHub</a>
                     <a href="/contact_form">Contact</a>
