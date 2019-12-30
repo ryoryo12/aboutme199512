@@ -126,7 +126,7 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
                 <ul class="links">
 										<a href="/prof">Profile</a>
                     <a href="/work">Works</a>
-                    <a href="https://github.com/ryoryo12">GitHub</a>
+                    <a href="https://github.com/ryoryo12" target="_blank">GitHub</a>
                     <a href="/contact_form">Contact</a>
                 </ul>
             </div>
