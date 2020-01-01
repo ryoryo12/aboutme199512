@@ -73,6 +73,11 @@
                 height: 100%;
             }
 
+            .title{
+              text-align: center;
+              font-size: 100px;
+            }
+
 
         </style>
     </head>
@@ -88,6 +93,7 @@
             </div>
             <div class="right_content">
                 <div class="right_content_text_box">
+                    <div class="title">ABOUT ME</div>
                     <div class="right_content_text">
                     </div>
                 </div>
