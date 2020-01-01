@@ -92,9 +92,9 @@
                 </ul>
             </div>
             <div class="right_content">
-                <div class="right_content_text_box">
-                    <div class="title">ABOUT ME</div>
-                    <div class="right_content_text">
+                <div class="content_title_box">
+                    <div class="content_title">WORKS</div>
+                <div class="right_content_text">
                     </div>
                 </div>
             </div>
