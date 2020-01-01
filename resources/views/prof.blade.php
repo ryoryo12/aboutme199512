@@ -80,7 +80,13 @@
                 margin: 10px;
                 font-size: 100px;
                 width: 100%;
+            }
 
+            .content_text_box{
+                width: 80%;
+                height: 500px;
+                background: red;
+                margin: 0 auto;
             }
 
 
@@ -100,7 +106,8 @@
                 <div class="content_title_box">
                     <div class="content_title">ME</div>
                 </div>
-                <div class="right_content_text">
+                <div class="content_text_box">
+                    <div class="content_text">
                     </div>
                 </div>
             </div>
