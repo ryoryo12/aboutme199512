@@ -66,16 +66,21 @@
                 height: 100%;
             }
 
-            .right_content_text_box{
-                width: 85%;
-                position: absolute;
-                right: 0px;
-                height: 100%;
+            .content_title_box{
+                width:40%;
+                height:150px;
+                background: #FF8C00;
+                margin: 30px auto;
+                text-align:center;
+                transform:skew(5deg,5deg);
             }
 
-            .title{
-              text-align: center;
-              font-size: 100px;
+            .content_title{
+                text-align: center;
+                margin: 10px;
+                font-size: 100px;
+                width: 100%;
+
             }
 
 
@@ -93,7 +98,7 @@
             </div>
             <div class="right_content">
                 <div class="content_title_box">
-                    <div class="content_title">WORKS</div>
+                    <div class="content_title">ME</div>
                 <div class="right_content_text">
                     </div>
                 </div>
