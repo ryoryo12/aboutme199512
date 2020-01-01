@@ -70,7 +70,6 @@
                 width: 85%;
                 position: absolute;
                 right: 0px;
-                border-left: solid 1px #FF8C00;
                 height: 100%;
             }
 
