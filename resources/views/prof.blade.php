@@ -99,6 +99,7 @@
             <div class="right_content">
                 <div class="content_title_box">
                     <div class="content_title">ME</div>
+                </div>
                 <div class="right_content_text">
                     </div>
                 </div>
