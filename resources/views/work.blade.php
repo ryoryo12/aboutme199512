@@ -180,7 +180,13 @@
                         </h2>
                     </div>
                 </div>
-                
+                <div class="footer">
+                    <div class="footer_text_box">
+                        <i class="fas fa-at"></i>
+                        <div class='footer_text'>ryoryo's portfolio</div>
+                        <span id="view_clock"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
