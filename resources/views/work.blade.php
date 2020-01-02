@@ -110,6 +110,36 @@
                 margin: 0 auto;
             }
 
+            .footer{
+                height: 8vh;
+                position: fixed;
+                width: 70%;
+                bottom: 0px;
+                left: 15%;
+            }
+            .footer_text_box{
+                text-align: center;
+                bottom: 0px;
+                margin-top: 4vh;
+            }
+
+            i{
+                display: inline;
+                font-size: 20px;
+            }
+
+            .footer_text{
+                display: inline;
+                font-size: 30px;
+                font-variant: all-petite-caps;
+            }
+
+            span{
+                font-size: 20px;
+            }
+
+
+
         </style>
     </head>
     <body>
