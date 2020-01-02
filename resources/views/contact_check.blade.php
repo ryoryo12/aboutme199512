@@ -83,6 +83,31 @@ if(count($errors) === 0){
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <meta charset="utf-8">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+            <script type="text/javascript">
+                timerID = setInterval('clock()',500); //0.5秒毎にclock()を実行
+
+                function clock() {
+                    document.getElementById("view_clock").innerHTML = getNow();
+                }
+
+                function getNow() {
+                    var now = new Date();
+                    var year = now.getFullYear();
+                    var mon = now.getMonth()+1; //１を足すこと
+                    var day = now.getDate();
+                    var hour = now.getHours();
+                    var min = now.getMinutes();
+                    var sec = now.getSeconds();
+
+                    //出力用
+                    var s = year + "/" + mon + "/" + day + "/" + hour + ":" + min + ":" + sec; 
+                    return s;
+                }
+                
+            </script>
+
         <style>
 
           html, body {
@@ -134,6 +159,35 @@ if(count($errors) === 0){
             text-align: center;
           }
 
+          .footer{
+                height: 8vh;
+                position: fixed;
+                width: 70%;
+                bottom: 0px;
+                left: 15%;
+            }
+            .footer_text_box{
+                text-align: center;
+                bottom: 0px;
+                margin-top: 4vh;
+            }
+
+            i{
+                display: inline;
+                font-size: 20px;
+            }
+
+            .footer_text{
+                display: inline;
+                font-size: 30px;
+                font-variant: all-petite-caps;
+            }
+
+            span{
+                font-size: 20px;
+            }
+
+
         </style>
         </head>
     <body>
@@ -164,7 +218,14 @@ if(count($errors) === 0){
                   <input type="submit" value="送信する">
 
               </form>
-          </div>
+            </div>
+            <div class="footer">
+                <div class="footer_text_box">
+                    <i class="fas fa-at"></i>
+                    <div class='footer_text'>ryoryo's portfolio</div>
+                    <span id="view_clock"></span>
+                </div>
+            </div>
 
         </div>
 
