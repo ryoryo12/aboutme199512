@@ -66,6 +66,31 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 				<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+						<script type="text/javascript">
+								timerID = setInterval('clock()',500); //0.5秒毎にclock()を実行
+
+								function clock() {
+										document.getElementById("view_clock").innerHTML = getNow();
+								}
+
+								function getNow() {
+										var now = new Date();
+										var year = now.getFullYear();
+										var mon = now.getMonth()+1; //１を足すこと
+										var day = now.getDate();
+										var hour = now.getHours();
+										var min = now.getMinutes();
+										var sec = now.getSeconds();
+
+										//出力用
+										var s = year + "/" + mon + "/" + day + "/" + hour + ":" + min + ":" + sec; 
+										return s;
+								}
+								
+						</script>
+
         <style>
 
 				html, body {
@@ -121,6 +146,37 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
 						text-decoration: none;
 						text-transform: uppercase;
 				}
+
+				.footer{
+						height: 8vh;
+						position: fixed;
+						width: 70%;
+						bottom: 0px;
+						left: 15%;
+				}
+				.footer_text_box{
+						text-align: center;
+						bottom: 0px;
+						margin-top: 4vh;
+				}
+
+				i{
+						display: inline;
+						font-size: 20px;
+				}
+
+				.footer_text{
+						display: inline;
+						font-size: 30px;
+						font-variant: all-petite-caps;
+				}
+
+				span{
+						font-size: 20px;
+				}
+
+
+
 				</style>
       </head>
       <body>
@@ -136,6 +192,15 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
             <div class="right_content">
                 <h1> お問い合わせありがとうございます。</h1>
             </div>
+
+						<div class="footer">
+                <div class="footer_text_box">
+                    <i class="fas fa-at"></i>
+                    <div class='footer_text'>ryoryo's portfolio</div>
+                    <span id="view_clock"></span>
+                </div>
+            </div>
+
         </div>
     </body>
 </html>
