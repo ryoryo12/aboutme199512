@@ -7,8 +7,31 @@
         <title>Works</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
             <script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+                <script type="text/javascript">
+                    timerID = setInterval('clock()',500); //0.5秒毎にclock()を実行
+
+                    function clock() {
+                        document.getElementById("view_clock").innerHTML = getNow();
+                    }
+
+                    function getNow() {
+                        var now = new Date();
+                        var year = now.getFullYear();
+                        var mon = now.getMonth()+1; //１を足すこと
+                        var day = now.getDate();
+                        var hour = now.getHours();
+                        var min = now.getMinutes();
+                        var sec = now.getSeconds();
+
+                        //出力用
+                        var s = year + "/" + mon + "/" + day + "/" + hour + ":" + min + ":" + sec; 
+                        return s;
+                    }
+                    
+                </script>
             </script>
-        </script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
