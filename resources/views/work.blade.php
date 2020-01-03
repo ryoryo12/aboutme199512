@@ -133,7 +133,7 @@
 
             .footer{
                 height: 8vh;
-                position: absolute;
+                position: relative;
                 width: 70%;
                 bottom: 0px;
                 left: 15%;
@@ -141,7 +141,7 @@
             .footer_text_box{
                 text-align: center;
                 bottom: 0px;
-                margin-top: 4vh;
+                margin-top: 10vh;
             }
 
             i{
