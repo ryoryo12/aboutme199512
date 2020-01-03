@@ -123,6 +123,13 @@
               font-size: 20px;
             }
 
+            .content_text_skill{
+              font-size: 20px;
+              border: solid 1px #FF8C00;
+              margin: 10px;
+              display: inline;
+            }
+
 
 
             .footer{
@@ -181,7 +188,11 @@
                     新卒で某大手住宅会社に営業として入社後、1年4ヶ月で退職。その後TECH：EXPERTにてRuby on Rails、Javascriptを用いたフルスクラッチのアプリケーション開発及びAWSを用いたデプロイ、Haml・SCSS・Ruby・Ruby on Rails・JavaScript・jQuery・GitHub・AWS　等の技術を用いた複合的機能の企画・実装を経験。
                     </div>
                     <div class="content_text_title">SKILLS</div>
-                    <div class="content_text">
+                    <div class="content_text_skill">
+                    HTML
+                    </div>
+                    <div class="content_text_skill">
+                    CSS
                     </div>
                 </div>
             </div>
