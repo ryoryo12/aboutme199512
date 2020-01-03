@@ -55,9 +55,7 @@
         <style>
 
             html, body {
-                background: #42275a;
-                background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-                background: linear-gradient(to right, #734b6d, #42275a);
+                background: #d0c7b9;
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -88,6 +86,7 @@
             .left_content{
                 width: 15%;
                 top: 0px;
+                background: #573317;
             }
             a {
                 display: block;
@@ -197,9 +196,7 @@
             }
 
             .start {
-                background: #42275a;
-                background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-                background: linear-gradient(to right, #734b6d, #42275a);
+                background: #a2522d;
                 position: fixed;
                 top: 0;
                 left: 0;
