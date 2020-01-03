@@ -7,7 +7,7 @@
         <title>Profile</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-        <script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
             <script type="text/javascript">
@@ -33,7 +33,6 @@
                 
             </script>
 
-        </script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -108,10 +107,23 @@
 
             .content_text_box{
                 width: 80%;
-                height: 500px;
                 margin: 0 auto;
                 border: solid 2px #FF8C00;
             }
+
+            .content_text_name{
+              font-size: 30px;
+            }
+
+            .content_text_title{
+              font-size: 50px;
+            }
+
+            .content_text{
+              font-size: 20px;
+            }
+
+
 
             .footer{
                 height: 8vh;
@@ -161,10 +173,17 @@
                     <div class="content_title">ME</div>
                 </div>
                 <div class="content_text_box">
-
+                    <div class="content_text_name">
+                    平田 亮太
+                    </div>
+                    <div class="content_text">
+                    </div>
+                    <div class="content_text_title">HISTORY</div>
                     <div class="content_text">
                     新卒で某大手住宅会社に営業として入社後、1年4ヶ月で退職。その後TECH：EXPERTにてRuby on Rails、Javascriptを用いたフルスクラッチのアプリケーション開発及びAWSを用いたデプロイ、Haml・SCSS・Ruby・Ruby on Rails・JavaScript・jQuery・GitHub・AWS　等の技術を用いた複合的機能の企画・実装を経験。
-
+                    </div>
+                    <div class="content_text_title">SKILLS</div>
+                    <div class="content_text">
                     
                     </div>
                 </div>
