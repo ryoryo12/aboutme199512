@@ -91,7 +91,7 @@
             .content_title_box{
                 width:40%;
                 height:150px;
-                background: #FF8C00;
+                background: #a2522d;;
                 margin: 30px auto;
                 text-align:center;
                 transform:skew(5deg,5deg);
@@ -107,17 +107,17 @@
             .content_text_box{
                 width: 80%;
                 margin: 0 auto;
-                border: solid 2px #FF8C00;
+                border: solid 3px #a2522d;
             }
 
             .content_text_name{
               font-size: 30px;
-              color: #FF8C00;
+              color: #a2522d;
             }
 
             .content_text_title{
               font-size: 50px;
-              color: #FF8C00;
+              color: #a2522d;
             }
 
             .content_text{
@@ -126,9 +126,9 @@
 
             .content_text_skill{
               font-size: 20px;
-              border: solid 1px #FF8C00;
+              border: solid 1px #a2522d;
               margin: 10px;
-              display: inline;
+              display: inline-block;
             }
 
 
