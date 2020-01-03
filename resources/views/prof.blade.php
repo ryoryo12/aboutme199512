@@ -40,9 +40,7 @@
         <style>
             
             html, body {
-                background: #42275a;
-                background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-                background: linear-gradient(to right, #734b6d, #42275a);
+                background: #573317;
                 color: #777777;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -87,6 +85,7 @@
                 right: 0px;
                 border-left: solid 1px #FF8C00;
                 height: 100%;
+                background: #d0c7b9;
             }
 
             .content_title_box{
