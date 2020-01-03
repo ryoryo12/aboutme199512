@@ -20,7 +20,7 @@ if(empty($_POST)) {
 //メールの宛先
 $mailTo = 'o61.hirata.ryota@gmail.com';
 //Return-Pathに指定するメールアドレス
-$returnMail = 'o61.hirata.ryota@gmail.com';
+$returnMail = '';
 
 //セッション変数等を各変数に設定
 $name = $_SESSION['name'];
