@@ -1,17 +1,17 @@
 <?php
 session_start();
- 
+
 header("Content-type: text/html; charset=utf-8");
- 
+
 //クリックジャッキング対策
 header('X-FRAME-OPTIONS: SAMEORIGIN');
- 
+
 //トークン判定
 if ($_POST['token'] != sha1(session_id()) ){
 	echo "不正アクセスの可能性あり";
 	exit();
 }
- 
+
 //前後にある半角全角スペースを削除する関数
 function spaceTrim ($str) {
 	// 行頭
@@ -20,10 +20,10 @@ function spaceTrim ($str) {
 	$str = preg_replace('/[ 　]+$/u', '', $str);
 	return $str;
 }
- 
+
 //エラーメッセージの初期化
 $errors = array();
- 
+
 if(empty($_POST)) {
 	header("Location: contact_form.php");
 	exit();
@@ -37,7 +37,7 @@ if(empty($_POST)) {
 	$name = spaceTrim($name);
 	$mail = spaceTrim($mail);
 	$comment = spaceTrim($comment);
- 
+
 	//名前入力判定
 	if ($name == ''){
 		$errors['name'] = "名前が入力されていません。";
@@ -65,7 +65,7 @@ if(empty($_POST)) {
 		}
 	}
 }
- 
+
 //エラーが無ければセッションに登録
 if(count($errors) === 0){
 	$_SESSION['name'] = $name;
@@ -110,22 +110,22 @@ if(count($errors) === 0){
 
         <style>
 
-          html, body {
-              background: #573317;
-              color: #777777;
-              font-family: 'Nunito', sans-serif;
-              font-weight: 200;
-              height: 100vh;
-              margin: 0;
-          }
+            html, body {
+                background: #573317;
+                color: #777777;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
 
-          .content{
+            .content{
             height: 100vh;
             width: 100%;
             margin: 0 auto;
-          }
+            }
 
-          .left_content{
+            .left_content{
                 width: 14%;
                 top: 0px;
                 position: fixed;
@@ -141,24 +141,24 @@ if(count($errors) === 0){
                 background: #d0c7b9;
             }
 
-          a {
-              display: block;
-              margin: 150px; 
-              transform: rotate(270deg);
-              color: #777777;
-              right: 0;
-              font-size: 22px;
-              font-weight: 600;
-              letter-spacing: .1rem;
-              text-decoration: none;
-              text-transform: uppercase;
-          }
+            a {
+                display: block;
+                margin: 150px; 
+                transform: rotate(270deg);
+                color: #777777;
+                right: 0;
+                font-size: 22px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
 
-          form{
+            form{
             text-align: center;
-          }
+            }
 
-          .footer{
+            .footer{
                 height: 8vh;
                 position: fixed;
                 width: 85%;
@@ -204,19 +204,19 @@ if(count($errors) === 0){
             </div>
             <div class="right_content">
 
-              <form action="/contact_send" method="post">
-              @csrf
+                <form action="/contact_send" method="post">
+                @csrf
 
 
-                  <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
-                  <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
-                  <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
+                    <p>名前：<?=htmlspecialchars($name, ENT_QUOTES)?></p>
+                    <p>メールアドレス：<?=htmlspecialchars($mail, ENT_QUOTES)?></p>
+                    <p><?=nl2br(htmlspecialchars($comment, ENT_QUOTES))?></p>
 
-                  <input type="button" value="戻る" onClick="history.back()">
-                  <input type="hidden" name="token" value="<?=$_POST['token']?>">
-                  <input type="submit" value="送信する">
+                    <input type="button" value="戻る" onClick="history.back()">
+                    <input type="hidden" name="token" value="<?=$_POST['token']?>">
+                    <input type="submit" value="送信する">
 
-              </form>
+                </form>
             </div>
             <div class="footer">
                 <div class="footer_text_box">
@@ -232,7 +232,7 @@ if(count($errors) === 0){
 
         <?php
         foreach($errors as $value){
-          echo "<p>".$value."</p>";
+            echo "<p>".$value."</p>";
         }
         ?>
 
