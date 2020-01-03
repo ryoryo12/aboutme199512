@@ -87,23 +87,23 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
                 height: 100%;
             }
 
-          a {
-              display: block;
-              margin: 150px; 
-              transform: rotate(270deg);
-              color: #777777;
-              right: 0;
-              font-size: 22px;
-              font-weight: 600;
-              letter-spacing: .1rem;
-              text-decoration: none;
-              text-transform: uppercase;
-          }
+            a {
+                display: block;
+                margin: 150px; 
+                transform: rotate(270deg);
+                color: #777777;
+                right: 0;
+                font-size: 22px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
 
-          .footer{
+            .footer{
                 height: 8vh;
                 position: fixed;
-                width: 70%;
+                width: 85%;
                 bottom: 0px;
                 left: 15%;
             }
