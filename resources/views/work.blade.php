@@ -6,7 +6,6 @@
 
         <title>Works</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
                 <script type="text/javascript">
@@ -31,7 +30,6 @@
                     }
                     
                 </script>
-            </script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -135,7 +133,7 @@
 
             .footer{
                 height: 8vh;
-                position: fixed;
+                position: absolute;
                 width: 70%;
                 bottom: 0px;
                 left: 15%;
