@@ -119,7 +119,7 @@
             }
             .title{
                 margin: 12% 20px;
-                color: #AAAAAA;
+                color: #a2522d;
                 position: absolute;
             }
             .title_shadow{
