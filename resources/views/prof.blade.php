@@ -113,10 +113,12 @@
 
             .content_text_name{
               font-size: 30px;
+              color: #FF8C00;
             }
 
             .content_text_title{
               font-size: 50px;
+              color: #FF8C00;
             }
 
             .content_text{
@@ -135,7 +137,7 @@
             .footer{
                 height: 8vh;
                 position: fixed;
-                width: 70%;
+                width: 80%;
                 bottom: 0px;
                 left: 15%;
             }
@@ -177,7 +179,7 @@
             </div>
             <div class="right_content">
                 <div class="content_title_box">
-                    <div class="content_title">ME</div>
+                    <div class="content_title">PROFILE</div>
                 </div>
                 <div class="content_text_box">
                     <div class="content_text_name">
@@ -185,7 +187,9 @@
                     </div>
                     <div class="content_text_title">HISTORY</div>
                     <div class="content_text">
-                    甲南大学経済学部経済学科を卒業後、新卒で某大手住宅会社に営業として入社し、約1年4ヶ月で退職。その後TECH：EXPERTに入学し、プログラミングの楽しさを知り、夢中でプログラミングを学習中。現在24歳
+                    現在24歳。
+                    甲南大学経済学部経済学科を卒業後、新卒で某大手住宅会社に営業として入社し、約1年4ヶ月で退職。
+                    その後TECH：EXPERTに入学し、プログラミングの楽しさを知り、夢中でプログラミングを学習中。
                     </div>
                     <div class="content_text_title">SKILLS</div>
                     <div class="content_text_skill">
