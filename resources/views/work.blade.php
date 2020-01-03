@@ -89,7 +89,7 @@
             .content_title_box{
                 width:40%;
                 height:150px;
-                background: #FF8C00;
+                background: #a2522d;
                 margin: 30px auto;
                 text-align:center;
                 transform:skew(5deg,5deg);
@@ -104,7 +104,7 @@
             }
 
             .box{
-                border: solid 3px #FF8C00;
+                border: solid 3px #a2522d;
                 width: 800px;
                 margin: 10px auto;
                 
