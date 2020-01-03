@@ -94,9 +94,7 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
         <style>
 
 				html, body {
-					background: #42275a;
-					background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-					background: linear-gradient(to right, #734b6d, #42275a);
+					background: #573317;
 					color: #777777;
 					font-family: 'Nunito', sans-serif;
 					font-weight: 200;
@@ -132,6 +130,7 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
 							border-left: solid 1px #FF8C00;
 							height: 100%;
 							top: 0px;
+							background: #d0c7b9;
 					}
 
 				a {
