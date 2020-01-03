@@ -162,7 +162,7 @@ if(count($errors) === 0){
           .footer{
                 height: 8vh;
                 position: fixed;
-                width: 70%;
+                width: 85%;
                 bottom: 0px;
                 left: 15%;
             }
