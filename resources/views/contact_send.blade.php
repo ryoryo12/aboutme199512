@@ -150,7 +150,7 @@ if (mb_send_mail($mailTo, $subject, $body, $header, '-f'. $returnMail)) {
 				.footer{
 						height: 8vh;
 						position: fixed;
-						width: 70%;
+						width: 85%;
 						bottom: 0px;
 						left: 15%;
 				}
