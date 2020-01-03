@@ -109,8 +109,8 @@
             .content_text_box{
                 width: 80%;
                 height: 500px;
-                background: red;
                 margin: 0 auto;
+                border: solid 2px #FF8C00;
             }
 
             .footer{
@@ -161,7 +161,11 @@
                     <div class="content_title">ME</div>
                 </div>
                 <div class="content_text_box">
+
                     <div class="content_text">
+                    新卒で某大手住宅会社に営業として入社後、1年4ヶ月で退職。その後TECH：EXPERTにてRuby on Rails、Javascriptを用いたフルスクラッチのアプリケーション開発及びAWSを用いたデプロイ、Haml・SCSS・Ruby・Ruby on Rails・JavaScript・jQuery・GitHub・AWS　等の技術を用いた複合的機能の企画・実装を経験。
+
+                    
                     </div>
                 </div>
             </div>
