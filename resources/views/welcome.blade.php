@@ -187,6 +187,7 @@
                 height: 100vh;
                 width: 15%;
                 right: 0px;
+                background: #573317;
             }
             .right_text{
                 transform: rotate(270deg);
@@ -240,6 +241,7 @@
                 width: 70%;
                 bottom: 0px;
                 left: 15%;
+                
             }
             .footer_text_box{
                 text-align: center;
