@@ -47,30 +47,30 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
 
         <style>
 
-          html, body {
-              background: #573317;
-              color: #777777;
-              font-family: 'Nunito', sans-serif;
-              font-weight: 200;
-              height: 100vh;
-              margin: 0;
-          }
+            html, body {
+                background: #573317;
+                color: #777777;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
 
-          .content{
+            .content{
             height: 100%;
             width: 100%;
             margin: 0 auto;
-          }
+            }
 
-          h1{
+            h1{
             text-align: center;
-          }
+            }
 
-          form{
+            form{
             text-align: center;
-          }
+            }
 
-          .left_content{
+            .left_content{
                 width: 14%;
                 top: 0px;
                 position: fixed;
@@ -127,10 +127,9 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
                 font-size: 20px;
             }
 
-          
         </style>
-      </head>
-      <body>
+        </head>
+        <body>
         <div class="content">
             <div class ="left_content">
                 <ul class="links">
