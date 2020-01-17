@@ -92,7 +92,7 @@
                 display: block;
                 margin: 150px; 
                 transform: rotate(270deg);
-                color: #777777;
+                color: white;
                 right: 0;
                 font-size: 22px;
                 font-weight: 600;
@@ -194,6 +194,7 @@
                 margin-top: 600px;
                 font-size: 20px;
                 width: 300px;
+                color: white;
             }
 
             .start {
